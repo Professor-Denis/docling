@@ -1,0 +1,3850 @@
+Hybrid Chunking Ergebnis
+========================
+Quelldokument: /Users/denisnorthe/Desktop/Cursor /docling/tests/data/pdf/2206.01062.pdf
+Anzahl Chunks: 287
+Max. Tokens pro Chunk: 64
+Embedding-Modell: sentence-transformers/all-MiniLM-L6-v2
+
+============================================================
+
+=== CHUNK 0 ===
+Tokens (Original): 42
+Tokens (mit Kontext): 60
+
+--- Original-Text ---
+Birgit Pfitzmann IBM Research Rueschlikon, Switzerland bpf@zurich.ibm.com
+Christoph Auer IBM Research Rueschlikon, Switzerland cau@zurich.ibm.com
+
+--- Kontextualisierter Text (für Embedding) ---
+DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis
+Birgit Pfitzmann IBM Research Rueschlikon, Switzerland bpf@zurich.ibm.com
+Christoph Auer IBM Research Rueschlikon, Switzerland cau@zurich.ibm.com
+
+------------------------------------------------------------
+
+=== CHUNK 1 ===
+Tokens (Original): 41
+Tokens (mit Kontext): 59
+
+--- Original-Text ---
+Ahmed S. Nassar IBM Research
+Rueschlikon, Switzerland ahn@zurich.ibm.com
+Michele Dolfi IBM Research Rueschlikon, Switzerland dol@zurich.ibm.com
+
+--- Kontextualisierter Text (für Embedding) ---
+DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis
+Ahmed S. Nassar IBM Research
+Rueschlikon, Switzerland ahn@zurich.ibm.com
+Michele Dolfi IBM Research Rueschlikon, Switzerland dol@zurich.ibm.com
+
+------------------------------------------------------------
+
+=== CHUNK 2 ===
+Tokens (Original): 33
+Tokens (mit Kontext): 51
+
+--- Original-Text ---
+Peter Staar IBM Research Rueschlikon, Switzerland taa@zurich.ibm.com
+Figure 1: Four examples of complex page layouts across different document categories
+
+--- Kontextualisierter Text (für Embedding) ---
+DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis
+Peter Staar IBM Research Rueschlikon, Switzerland taa@zurich.ibm.com
+Figure 1: Four examples of complex page layouts across different document categories
+
+------------------------------------------------------------
+
+=== CHUNK 3 ===
+Tokens (Original): 17
+Tokens (mit Kontext): 19
+
+--- Original-Text ---
+PDF document conversion, layout segmentation, object-detection, data set, Machine Learning
+
+--- Kontextualisierter Text (für Embedding) ---
+KEYWORDS
+PDF document conversion, layout segmentation, object-detection, data set, Machine Learning
+
+------------------------------------------------------------
+
+=== CHUNK 4 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar. 2022. DocLayNet: A Large Human-Annotated Dataset for DocumentLayout Analysis. In Proceedings of the 28th ACM
+
+--- Kontextualisierter Text (für Embedding) ---
+ACMReference Format:
+Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar. 2022. DocLayNet: A Large Human-Annotated Dataset for DocumentLayout Analysis. In Proceedings of the 28th ACM
+
+------------------------------------------------------------
+
+=== CHUNK 5 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22), August 14-18, 2022, Washington, DC, USA. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/
+
+--- Kontextualisierter Text (für Embedding) ---
+ACMReference Format:
+SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22), August 14-18, 2022, Washington, DC, USA. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/
+
+------------------------------------------------------------
+
+=== CHUNK 6 ===
+Tokens (Original): 10
+Tokens (mit Kontext): 16
+
+--- Original-Text ---
+3534678.3539043
+
+--- Kontextualisierter Text (für Embedding) ---
+ACMReference Format:
+3534678.3539043
+
+------------------------------------------------------------
+
+=== CHUNK 7 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Accurate document layout analysis is a key requirement for highquality PDF document conversion. With the recent availability of public, large ground-truth datasets such as PubLayNet and DocBank, deep-learning models have proven to be very effective at layout detection and segmentation. While these datasets are of
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+Accurate document layout analysis is a key requirement for highquality PDF document conversion. With the recent availability of public, large ground-truth datasets such as PubLayNet and DocBank, deep-learning models have proven to be very effective at layout detection and segmentation. While these datasets are of
+
+------------------------------------------------------------
+
+=== CHUNK 8 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+adequate size to train such models, they severely lack in layout variability since they are sourced from scientific article repositories such as PubMed and arXiv only. Consequently, the accuracy of the layout segmentation drops significantly when these models are applied on more challenging and diverse layouts. In this paper, we
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+adequate size to train such models, they severely lack in layout variability since they are sourced from scientific article repositories such as PubMed and arXiv only. Consequently, the accuracy of the layout segmentation drops significantly when these models are applied on more challenging and diverse layouts. In this paper, we
+
+------------------------------------------------------------
+
+=== CHUNK 9 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+present DocLayNet , a new, publicly available, document-layout annotation dataset in COCO format. It contains 80863 manually annotated pages from diverse data sources to represent a wide variability in layouts. For each PDF page, the layout annotations provide labelled bounding-boxes with
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+present DocLayNet , a new, publicly available, document-layout annotation dataset in COCO format. It contains 80863 manually annotated pages from diverse data sources to represent a wide variability in layouts. For each PDF page, the layout annotations provide labelled bounding-boxes with
+
+------------------------------------------------------------
+
+=== CHUNK 10 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+a choice of 11 distinct classes. DocLayNet also provides a subset of double- and triple-annotated pages to determine the inter-annotator agreement. In multiple experiments, we provide baseline accuracy scores (in mAP) for a set of popular object detection models. We also demonstrate that these models fall
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+a choice of 11 distinct classes. DocLayNet also provides a subset of double- and triple-annotated pages to determine the inter-annotator agreement. In multiple experiments, we provide baseline accuracy scores (in mAP) for a set of popular object detection models. We also demonstrate that these models fall
+
+------------------------------------------------------------
+
+=== CHUNK 11 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+approximately 10% behind the inter-annotator agreement. Furthermore, we provide evidence that DocLayNet is of sufficient size. Lastly, we compare models trained on PubLayNet, DocBank and DocLayNet, showing that layout predictions of the DocLayNettrained models are more robust and thus the preferred choice
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+approximately 10% behind the inter-annotator agreement. Furthermore, we provide evidence that DocLayNet is of sufficient size. Lastly, we compare models trained on PubLayNet, DocBank and DocLayNet, showing that layout predictions of the DocLayNettrained models are more robust and thus the preferred choice
+
+------------------------------------------------------------
+
+=== CHUNK 12 ===
+Tokens (Original): 9
+Tokens (mit Kontext): 10
+
+--- Original-Text ---
+for general-purpose document-layout analysis.
+
+--- Kontextualisierter Text (für Embedding) ---
+ABSTRACT
+for general-purpose document-layout analysis.
+
+------------------------------------------------------------
+
+=== CHUNK 13 ===
+Tokens (Original): 31
+Tokens (mit Kontext): 34
+
+--- Original-Text ---
+· Informationsystems → Documentstructure ; · Appliedcomputing → Document analysis ; · Computing methodologies → Machine learning ; Computer vision ; Object detection ;
+
+--- Kontextualisierter Text (für Embedding) ---
+CCS CONCEPTS
+· Informationsystems → Documentstructure ; · Appliedcomputing → Document analysis ; · Computing methodologies → Machine learning ; Computer vision ; Object detection ;
+
+------------------------------------------------------------
+
+=== CHUNK 14 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of this work
+
+--- Kontextualisierter Text (für Embedding) ---
+CCS CONCEPTS
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of this work
+
+------------------------------------------------------------
+
+=== CHUNK 15 ===
+Tokens (Original): 50
+Tokens (mit Kontext): 53
+
+--- Original-Text ---
+must be honored. For all other uses, contact the owner/author(s).
+KDD '22, August 14-18, 2022, Washington, DC, USA
+© 2022 Copyright held by the owner/author(s).
+
+--- Kontextualisierter Text (für Embedding) ---
+CCS CONCEPTS
+must be honored. For all other uses, contact the owner/author(s).
+KDD '22, August 14-18, 2022, Washington, DC, USA
+© 2022 Copyright held by the owner/author(s).
+
+------------------------------------------------------------
+
+=== CHUNK 16 ===
+Tokens (Original): 42
+Tokens (mit Kontext): 45
+
+--- Original-Text ---
+ACM ISBN 978-1-4503-9385-0/22/08.
+https://doi.org/10.1145/3534678.3539043
+
+--- Kontextualisierter Text (für Embedding) ---
+CCS CONCEPTS
+ACM ISBN 978-1-4503-9385-0/22/08.
+https://doi.org/10.1145/3534678.3539043
+
+------------------------------------------------------------
+
+=== CHUNK 17 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 48
+
+--- Original-Text ---
+KDD '22, August 14-18, 2022, Washington, DC, USA Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar
+
+--- Kontextualisierter Text (für Embedding) ---
+CCS CONCEPTS
+KDD '22, August 14-18, 2022, Washington, DC, USA Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar
+
+------------------------------------------------------------
+
+=== CHUNK 18 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Despite the substantial improvements achieved with machine-learning (ML) approaches and deep neural networks in recent years, document conversion remains a challenging problem, as demonstrated by the numerous public competitions held on this topic [1-4]. The challenge originates from the huge variability in PDF documents regarding layout, language and formats
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+Despite the substantial improvements achieved with machine-learning (ML) approaches and deep neural networks in recent years, document conversion remains a challenging problem, as demonstrated by the numerous public competitions held on this topic [1-4]. The challenge originates from the huge variability in PDF documents regarding layout, language and formats
+
+------------------------------------------------------------
+
+=== CHUNK 19 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+(scanned, programmatic or a combination of both). Engineering a single ML model that can be applied on all types of documents and provides high-quality layout segmentation remains to this day extremely challenging [5]. To highlight the variability in document layouts, we show a few example documents from the
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+(scanned, programmatic or a combination of both). Engineering a single ML model that can be applied on all types of documents and provides high-quality layout segmentation remains to this day extremely challenging [5]. To highlight the variability in document layouts, we show a few example documents from the
+
+------------------------------------------------------------
+
+=== CHUNK 20 ===
+Tokens (Original): 9
+Tokens (mit Kontext): 11
+
+--- Original-Text ---
+DocLayNet dataset in Figure 1.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+DocLayNet dataset in Figure 1.
+
+------------------------------------------------------------
+
+=== CHUNK 21 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Akeyproblem in the process of document conversion is to understand the structure of a single document page, i.e. which segments of text should be grouped together in a unit. To train models for this task, there are currently two large datasets available to the community, PubLayNet
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+Akeyproblem in the process of document conversion is to understand the structure of a single document page, i.e. which segments of text should be grouped together in a unit. To train models for this task, there are currently two large datasets available to the community, PubLayNet
+
+------------------------------------------------------------
+
+=== CHUNK 22 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+[6] and DocBank [7]. They were introduced in 2019 and 2020 respectively and significantly accelerated the implementation of layout detection and segmentation models due to their sizes of 300K and 500K ground-truth pages. These sizes were achieved by leveraging an automation approach. The benefit of automated
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+[6] and DocBank [7]. They were introduced in 2019 and 2020 respectively and significantly accelerated the implementation of layout detection and segmentation models due to their sizes of 300K and 500K ground-truth pages. These sizes were achieved by leveraging an automation approach. The benefit of automated
+
+------------------------------------------------------------
+
+=== CHUNK 23 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+ground-truth generation is obvious: one can generate large ground-truth datasets at virtually no cost. However, the automation introduces a constraint on the variability in the dataset, because corresponding structured source data must be available. PubLayNet and DocBank were both generated from scientific document repositories
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+ground-truth generation is obvious: one can generate large ground-truth datasets at virtually no cost. However, the automation introduces a constraint on the variability in the dataset, because corresponding structured source data must be available. PubLayNet and DocBank were both generated from scientific document repositories
+
+------------------------------------------------------------
+
+=== CHUNK 24 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+(PubMed and arXiv), which provide XML or L A T E X sources. Those scientific documents present a limited variability in their layouts, because they are typeset in uniform templates provided by the publishers. Obviously, documents such as technical manuals, annual company reports, legal text,
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+(PubMed and arXiv), which provide XML or L A T E X sources. Those scientific documents present a limited variability in their layouts, because they are typeset in uniform templates provided by the publishers. Obviously, documents such as technical manuals, annual company reports, legal text,
+
+------------------------------------------------------------
+
+=== CHUNK 25 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+government tenders, etc. have very different and partially unique layouts. As a consequence, the layout predictions obtained from models trained on PubLayNet or DocBank is very reasonable when applied on scientific documents. However, for more artistic or free-style layouts, we see sub-par prediction quality from
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+government tenders, etc. have very different and partially unique layouts. As a consequence, the layout predictions obtained from models trained on PubLayNet or DocBank is very reasonable when applied on scientific documents. However, for more artistic or free-style layouts, we see sub-par prediction quality from
+
+------------------------------------------------------------
+
+=== CHUNK 26 ===
+Tokens (Original): 10
+Tokens (mit Kontext): 12
+
+--- Original-Text ---
+these models, which we demonstrate in Section 5.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+these models, which we demonstrate in Section 5.
+
+------------------------------------------------------------
+
+=== CHUNK 27 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+In this paper, we present the DocLayNet dataset. It provides pageby-page layout annotation ground-truth using bounding-boxes for 11 distinct class labels on 80863 unique document pages, of which a fraction carry double- or triple-annotations. DocLayNet is
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+In this paper, we present the DocLayNet dataset. It provides pageby-page layout annotation ground-truth using bounding-boxes for 11 distinct class labels on 80863 unique document pages, of which a fraction carry double- or triple-annotations. DocLayNet is
+
+------------------------------------------------------------
+
+=== CHUNK 28 ===
+Tokens (Original): 39
+Tokens (mit Kontext): 41
+
+--- Original-Text ---
+similar in spirit to PubLayNet and DocBank and will likewise be made available to the public 1 in order to stimulate the document-layout analysis community. It distinguishes itself in the following aspects:
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+similar in spirit to PubLayNet and DocBank and will likewise be made available to the public 1 in order to stimulate the document-layout analysis community. It distinguishes itself in the following aspects:
+
+------------------------------------------------------------
+
+=== CHUNK 29 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+- (1) Human Annotation : In contrast to PubLayNet and DocBank, we relied on human annotation instead of automation approaches to generate the data set.
+- (2) Large Layout Variability : We include diverse and complex layouts from a large variety of public sources.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+- (1) Human Annotation : In contrast to PubLayNet and DocBank, we relied on human annotation instead of automation approaches to generate the data set.
+- (2) Large Layout Variability : We include diverse and complex layouts from a large variety of public sources.
+
+------------------------------------------------------------
+
+=== CHUNK 30 ===
+Tokens (Original): 41
+Tokens (mit Kontext): 43
+
+--- Original-Text ---
+- (3) Detailed Label Set : We define 11 class labels to distinguish layout features in high detail. PubLayNet provides 5 labels; DocBank provides 13, although not a superset of ours.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+- (3) Detailed Label Set : We define 11 class labels to distinguish layout features in high detail. PubLayNet provides 5 labels; DocBank provides 13, although not a superset of ours.
+
+------------------------------------------------------------
+
+=== CHUNK 31 ===
+Tokens (Original): 50
+Tokens (mit Kontext): 52
+
+--- Original-Text ---
+- (4) Redundant Annotations : A fraction of the pages in the DocLayNet data set carry more than one human annotation.
+1 https://developer.ibm.com/exchanges/data/all/doclaynet
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+- (4) Redundant Annotations : A fraction of the pages in the DocLayNet data set carry more than one human annotation.
+1 https://developer.ibm.com/exchanges/data/all/doclaynet
+
+------------------------------------------------------------
+
+=== CHUNK 32 ===
+Tokens (Original): 13
+Tokens (mit Kontext): 15
+
+--- Original-Text ---
+This enables experimentation with annotation uncertainty and quality control analysis.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+This enables experimentation with annotation uncertainty and quality control analysis.
+
+------------------------------------------------------------
+
+=== CHUNK 33 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- (5) Pre-defined Train-, Test- & Validation-set : Like DocBank, we provide fixed train-, test- & validation-sets to ensure proportional representation of the class-labels. Further, we prevent leakage of unique layouts across sets, which has a large effect on
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+- (5) Pre-defined Train-, Test- & Validation-set : Like DocBank, we provide fixed train-, test- & validation-sets to ensure proportional representation of the class-labels. Further, we prevent leakage of unique layouts across sets, which has a large effect on
+
+------------------------------------------------------------
+
+=== CHUNK 34 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+model accuracy scores.
+All aspects outlined above are detailed in Section 3. In Section 4, we will elaborate on how we designed and executed this large-scale human annotation campaign. We will also share key insights and lessons learned that might prove helpful for other parties planning to set up annotation campaigns.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+model accuracy scores.
+All aspects outlined above are detailed in Section 3. In Section 4, we will elaborate on how we designed and executed this large-scale human annotation campaign. We will also share key insights and lessons learned that might prove helpful for other parties planning to set up annotation campaigns.
+
+------------------------------------------------------------
+
+=== CHUNK 35 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+In Section 5, we will present baseline accuracy numbers for a variety of object detection methods (Faster R-CNN, Mask R-CNN and YOLOv5) trained on DocLayNet. We further show how the model performance is impacted by varying the DocLayNet dataset size, reducing the label set and
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+In Section 5, we will present baseline accuracy numbers for a variety of object detection methods (Faster R-CNN, Mask R-CNN and YOLOv5) trained on DocLayNet. We further show how the model performance is impacted by varying the DocLayNet dataset size, reducing the label set and
+
+------------------------------------------------------------
+
+=== CHUNK 36 ===
+Tokens (Original): 48
+Tokens (mit Kontext): 50
+
+--- Original-Text ---
+modifying the train/test-split. Last but not least, we compare the performance of models trained on PubLayNet, DocBank and DocLayNet and demonstrate that a model trained on DocLayNet provides overall more robust layout recovery.
+
+--- Kontextualisierter Text (für Embedding) ---
+1 INTRODUCTION
+modifying the train/test-split. Last but not least, we compare the performance of models trained on PubLayNet, DocBank and DocLayNet and demonstrate that a model trained on DocLayNet provides overall more robust layout recovery.
+
+------------------------------------------------------------
+
+=== CHUNK 37 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+While early approaches in document-layout analysis used rulebased algorithms and heuristics [8], the problem is lately addressed with deep learning methods. The most common approach is to leverage object detection models [9-15]. In the last decade, the accuracy and speed of these models has
+
+--- Kontextualisierter Text (für Embedding) ---
+2 RELATED WORK
+While early approaches in document-layout analysis used rulebased algorithms and heuristics [8], the problem is lately addressed with deep learning methods. The most common approach is to leverage object detection models [9-15]. In the last decade, the accuracy and speed of these models has
+
+------------------------------------------------------------
+
+=== CHUNK 38 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+increased dramatically. Furthermore, most state-of-the-art object detection methods can be trained and applied with very little work, thanks to a standardisation effort of the ground-truth data format [16] and common deep-learning frameworks [17]. Reference data sets such as PubLayNet
+
+--- Kontextualisierter Text (für Embedding) ---
+2 RELATED WORK
+increased dramatically. Furthermore, most state-of-the-art object detection methods can be trained and applied with very little work, thanks to a standardisation effort of the ground-truth data format [16] and common deep-learning frameworks [17]. Reference data sets such as PubLayNet
+
+------------------------------------------------------------
+
+=== CHUNK 39 ===
+Tokens (Original): 19
+Tokens (mit Kontext): 22
+
+--- Original-Text ---
+[6] and DocBank provide their data in the commonly accepted COCO format [16].
+
+--- Kontextualisierter Text (für Embedding) ---
+2 RELATED WORK
+[6] and DocBank provide their data in the commonly accepted COCO format [16].
+
+------------------------------------------------------------
+
+=== CHUNK 40 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Lately, new types of ML models for document-layout analysis have emerged in the community [18-21]. These models do not approach the problem of layout analysis purely based on an image representation of the page, as computer vision methods do. Instead, they combine the text tokens and image representation of
+
+--- Kontextualisierter Text (für Embedding) ---
+2 RELATED WORK
+Lately, new types of ML models for document-layout analysis have emerged in the community [18-21]. These models do not approach the problem of layout analysis purely based on an image representation of the page, as computer vision methods do. Instead, they combine the text tokens and image representation of
+
+------------------------------------------------------------
+
+=== CHUNK 41 ===
+Tokens (Original): 37
+Tokens (mit Kontext): 40
+
+--- Original-Text ---
+a page in order to obtain a segmentation. While the reported accuracies appear to be promising, a broadly accepted data format which links geometric and textual features has yet to establish.
+
+--- Kontextualisierter Text (für Embedding) ---
+2 RELATED WORK
+a page in order to obtain a segmentation. While the reported accuracies appear to be promising, a broadly accepted data format which links geometric and textual features has yet to establish.
+
+------------------------------------------------------------
+
+=== CHUNK 42 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+DocLayNet contains 80863 PDF pages. Among these, 7059 carry two instances of human annotations, and 1591 carry three. This amounts to 91104 total annotation instances. The annotations provide layout information in the shape of labeled, rectangular
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+DocLayNet contains 80863 PDF pages. Among these, 7059 carry two instances of human annotations, and 1591 carry three. This amounts to 91104 total annotation instances. The annotations provide layout information in the shape of labeled, rectangular
+
+------------------------------------------------------------
+
+=== CHUNK 43 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+boundingboxes. We define 11 distinct labels for layout features, namely Caption , Footnote , Formula , List-item , Page-footer , Page-header , Picture , Section-header , Table , Text , and Title . Our reasoning for picking this particular label set
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+boundingboxes. We define 11 distinct labels for layout features, namely Caption , Footnote , Formula , List-item , Page-footer , Page-header , Picture , Section-header , Table , Text , and Title . Our reasoning for picking this particular label set
+
+------------------------------------------------------------
+
+=== CHUNK 44 ===
+Tokens (Original): 52
+Tokens (mit Kontext): 59
+
+--- Original-Text ---
+is detailed in Section 4.
+In addition to open intellectual property constraints for the source documents, we required that the documents in DocLayNet adhere to a few conditions. Firstly, we kept scanned documents
+Figure 2: Distribution of DocLayNet pages across document categories.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+is detailed in Section 4.
+In addition to open intellectual property constraints for the source documents, we required that the documents in DocLayNet adhere to a few conditions. Firstly, we kept scanned documents
+Figure 2: Distribution of DocLayNet pages across document categories.
+
+------------------------------------------------------------
+
+=== CHUNK 45 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+to a minimum, since they introduce difficulties in annotation (see Section 4). As a second condition, we focussed on medium to large documents ( > 10 pages) with technical content, dense in complex tables, figures, plots and captions. Such documents carry a lot
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+to a minimum, since they introduce difficulties in annotation (see Section 4). As a second condition, we focussed on medium to large documents ( > 10 pages) with technical content, dense in complex tables, figures, plots and captions. Such documents carry a lot
+
+------------------------------------------------------------
+
+=== CHUNK 46 ===
+Tokens (Original): 54
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+of information value, but are often hard to analyse with high accuracy due to their challenging layouts. Counterexamples of documents not included in the dataset are receipts, invoices, hand-written documents or photographs showing 'text in the wild".
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+of information value, but are often hard to analyse with high accuracy due to their challenging layouts. Counterexamples of documents not included in the dataset are receipts, invoices, hand-written documents or photographs showing 'text in the wild".
+
+------------------------------------------------------------
+
+=== CHUNK 47 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+The pages in DocLayNet can be grouped into six distinct categories, namely Financial Reports , Manuals , Scientific Articles , Laws & Regulations , Patents and Government Tenders . Each document category was sourced from various repositories. For example, Financial Reports contain both free-style format
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+The pages in DocLayNet can be grouped into six distinct categories, namely Financial Reports , Manuals , Scientific Articles , Laws & Regulations , Patents and Government Tenders . Each document category was sourced from various repositories. For example, Financial Reports contain both free-style format
+
+------------------------------------------------------------
+
+=== CHUNK 48 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+annual reports 2 which expose company-specific, artistic layouts as well as the more formal SEC filings. The two largest categories ( Financial Reports and Manuals ) contain a large amount of free-style layouts in order to obtain maximum variability. In the other four categories, we
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+annual reports 2 which expose company-specific, artistic layouts as well as the more formal SEC filings. The two largest categories ( Financial Reports and Manuals ) contain a large amount of free-style layouts in order to obtain maximum variability. In the other four categories, we
+
+------------------------------------------------------------
+
+=== CHUNK 49 ===
+Tokens (Original): 37
+Tokens (mit Kontext): 44
+
+--- Original-Text ---
+boosted the variability by mixing documents from independent providers, such as different government websites or publishers. In Figure 2, we show the document categories contained in DocLayNet with their respective sizes.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+boosted the variability by mixing documents from independent providers, such as different government websites or publishers. In Figure 2, we show the document categories contained in DocLayNet with their respective sizes.
+
+------------------------------------------------------------
+
+=== CHUNK 50 ===
+Tokens (Original): 51
+Tokens (mit Kontext): 58
+
+--- Original-Text ---
+We did not control the document selection with regard to language. The vast majority of documents contained in DocLayNet (close to 95%) are published in English language. However, DocLayNet also contains a number of documents in other languages such as German
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+We did not control the document selection with regard to language. The vast majority of documents contained in DocLayNet (close to 95%) are published in English language. However, DocLayNet also contains a number of documents in other languages such as German
+
+------------------------------------------------------------
+
+=== CHUNK 51 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+(2.5%), French (1.0%) and Japanese (1.0%). While the document language has negligible impact on the performance of computer vision methods such as object detection and segmentation models, it might prove challenging for layout analysis methods which
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+(2.5%), French (1.0%) and Japanese (1.0%). While the document language has negligible impact on the performance of computer vision methods such as object detection and segmentation models, it might prove challenging for layout analysis methods which
+
+------------------------------------------------------------
+
+=== CHUNK 52 ===
+Tokens (Original): 4
+Tokens (mit Kontext): 11
+
+--- Original-Text ---
+exploit textual features.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+exploit textual features.
+
+------------------------------------------------------------
+
+=== CHUNK 53 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+To ensure that future benchmarks in the document-layout analysis community can be easily compared, we have split up DocLayNet into pre-defined train-, test- and validation-sets. In this way, we can avoid spurious variations in the evaluation scores due to random splitting
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+To ensure that future benchmarks in the document-layout analysis community can be easily compared, we have split up DocLayNet into pre-defined train-, test- and validation-sets. In this way, we can avoid spurious variations in the evaluation scores due to random splitting
+
+------------------------------------------------------------
+
+=== CHUNK 54 ===
+Tokens (Original): 49
+Tokens (mit Kontext): 56
+
+--- Original-Text ---
+in train-, test- and validation-sets. We also ensured that less frequent labels are represented in train and test sets in equal proportions.
+2 e.g. AAPL from https://www.annualreports.com/
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+in train-, test- and validation-sets. We also ensured that less frequent labels are represented in train and test sets in equal proportions.
+2 e.g. AAPL from https://www.annualreports.com/
+
+------------------------------------------------------------
+
+=== CHUNK 55 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Table 1 shows the overall frequency and distribution of the labels among the different sets. Importantly, we ensure that subsets are only split on full-document boundaries. This avoids that pages of the same document are spread over train, test and validation set, which can give an undesired
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+Table 1 shows the overall frequency and distribution of the labels among the different sets. Importantly, we ensure that subsets are only split on full-document boundaries. This avoids that pages of the same document are spread over train, test and validation set, which can give an undesired
+
+------------------------------------------------------------
+
+=== CHUNK 56 ===
+Tokens (Original): 28
+Tokens (mit Kontext): 35
+
+--- Original-Text ---
+evaluation advantage to models and lead to overestimation of their prediction accuracy. We will show the impact of this decision in Section 5.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+evaluation advantage to models and lead to overestimation of their prediction accuracy. We will show the impact of this decision in Section 5.
+
+------------------------------------------------------------
+
+=== CHUNK 57 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+In order to accommodate the different types of models currently in use by the community, we provide DocLayNet in an augmented COCO format [16]. This entails the standard COCO ground-truth file (in JSON format) with the associated page images (in PNG format,
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+In order to accommodate the different types of models currently in use by the community, we provide DocLayNet in an augmented COCO format [16]. This entails the standard COCO ground-truth file (in JSON format) with the associated page images (in PNG format,
+
+------------------------------------------------------------
+
+=== CHUNK 58 ===
+Tokens (Original): 55
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+1025 × 1025 pixels). Furthermore, custom fields have been added to each COCO record to specify document category, original document filename and page number. In addition, we also provide the original PDF pages, as well as sidecar files containing parsed PDF text and
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+1025 × 1025 pixels). Furthermore, custom fields have been added to each COCO record to specify document category, original document filename and page number. In addition, we also provide the original PDF pages, as well as sidecar files containing parsed PDF text and
+
+------------------------------------------------------------
+
+=== CHUNK 59 ===
+Tokens (Original): 27
+Tokens (mit Kontext): 34
+
+--- Original-Text ---
+text-cell coordinates (in JSON). All additional files are linked to the primary page images by their matching filenames.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+text-cell coordinates (in JSON). All additional files are linked to the primary page images by their matching filenames.
+
+------------------------------------------------------------
+
+=== CHUNK 60 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Despite being cost-intense and far less scalable than automation, human annotation has several benefits over automated groundtruth generation. The first and most obvious reason to leverage human annotations is the freedom to annotate any type of document without requiring a programmatic source.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+Despite being cost-intense and far less scalable than automation, human annotation has several benefits over automated groundtruth generation. The first and most obvious reason to leverage human annotations is the freedom to annotate any type of document without requiring a programmatic source.
+
+------------------------------------------------------------
+
+=== CHUNK 61 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+For most PDF documents, the original source document is not available. The latter is not a hard constraint with human annotation, but it is for automated methods. A second reason to use human annotations is that the latter usually provide a more natural interpretation of the page layout.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+For most PDF documents, the original source document is not available. The latter is not a hard constraint with human annotation, but it is for automated methods. A second reason to use human annotations is that the latter usually provide a more natural interpretation of the page layout.
+
+------------------------------------------------------------
+
+=== CHUNK 62 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+The human-interpreted layout can significantly deviate from the programmatic layout used in typesetting. For example, 'invisible' tables might be used solely for aligning text paragraphs on columns. Such typesetting tricks might be interpreted by automated methods incorrectly as an actual table,
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+The human-interpreted layout can significantly deviate from the programmatic layout used in typesetting. For example, 'invisible' tables might be used solely for aligning text paragraphs on columns. Such typesetting tricks might be interpreted by automated methods incorrectly as an actual table,
+
+------------------------------------------------------------
+
+=== CHUNK 63 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+while the human annotation will interpret it correctly as Text or other styles. The same applies to multi-line text elements, when authors decided to space them as 'invisible' list elements without bullet symbols. A third reason to gather ground-truth through human annotation is to
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+while the human annotation will interpret it correctly as Text or other styles. The same applies to multi-line text elements, when authors decided to space them as 'invisible' list elements without bullet symbols. A third reason to gather ground-truth through human annotation is to
+
+------------------------------------------------------------
+
+=== CHUNK 64 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+estimate a 'natural' upper bound on the segmentation accuracy. As we will show in Section 4, certain documents featuring complex layouts can have different but equally acceptable layout interpretations. This natural upper bound for segmentation accuracy can be found by annotating the same pages multiple times by
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+estimate a 'natural' upper bound on the segmentation accuracy. As we will show in Section 4, certain documents featuring complex layouts can have different but equally acceptable layout interpretations. This natural upper bound for segmentation accuracy can be found by annotating the same pages multiple times by
+
+------------------------------------------------------------
+
+=== CHUNK 65 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+different people and evaluating the inter-annotator agreement. Such a baseline consistency evaluation is very useful to define expectations for a good target accuracy in trained deep neural network models and avoid overfitting (see Table 1). On the flip side, achieving high annotation consistency proved
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+different people and evaluating the inter-annotator agreement. Such a baseline consistency evaluation is very useful to define expectations for a good target accuracy in trained deep neural network models and avoid overfitting (see Table 1). On the flip side, achieving high annotation consistency proved
+
+------------------------------------------------------------
+
+=== CHUNK 66 ===
+Tokens (Original): 18
+Tokens (mit Kontext): 25
+
+--- Original-Text ---
+to be a key challenge in human annotation, as we outline in Section 4.
+
+--- Kontextualisierter Text (für Embedding) ---
+3 THE DOCLAYNET DATASET
+to be a key challenge in human annotation, as we outline in Section 4.
+
+------------------------------------------------------------
+
+=== CHUNK 67 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+The annotation campaign was carried out in four phases. In phase one, we identified and prepared the data sources for annotation. In phase two, we determined the class labels and how annotations should be done on the documents in order to obtain maximum consistency. The latter was guided
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+The annotation campaign was carried out in four phases. In phase one, we identified and prepared the data sources for annotation. In phase two, we determined the class labels and how annotations should be done on the documents in order to obtain maximum consistency. The latter was guided
+
+------------------------------------------------------------
+
+=== CHUNK 68 ===
+Tokens (Original): 48
+Tokens (mit Kontext): 53
+
+--- Original-Text ---
+by a detailed requirement analysis and exhaustive experiments. In phase three, we trained the annotation staff and performed exams for quality assurance. In phase four,
+Skip
+Field labels
+Identify document elements using the labels below.
+• None
+Clusters
+Picture
+Formula
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+by a detailed requirement analysis and exhaustive experiments. In phase three, we trained the annotation staff and performed exams for quality assurance. In phase four,
+Skip
+Field labels
+Identify document elements using the labels below.
+• None
+Clusters
+Picture
+Formula
+
+------------------------------------------------------------
+
+=== CHUNK 69 ===
+Tokens (Original): 53
+Tokens (mit Kontext): 58
+
+--- Original-Text ---
+Table 1: DocLayNet dataset overview. Along with the frequency of each class label, we present the relative occurrence (as % of row 'Total') in the train, test and validation sets. The inter-annotator agreement is computed as the
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Table 1: DocLayNet dataset overview. Along with the frequency of each class label, we present the relative occurrence (as % of row 'Total') in the train, test and validation sets. The inter-annotator agreement is computed as the
+
+------------------------------------------------------------
+
+=== CHUNK 70 ===
+Tokens (Original): 44
+Tokens (mit Kontext): 49
+
+--- Original-Text ---
+mAP@0.5-0.95 metric between pairwise annotations from the triple-annotated pages, from which we obtain accuracy ranges.
+• Page-footer
+• Page-header
+• Footnote
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP@0.5-0.95 metric between pairwise annotations from the triple-annotated pages, from which we obtain accuracy ranges.
+• Page-footer
+• Page-header
+• Footnote
+
+------------------------------------------------------------
+
+=== CHUNK 71 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Caption, Count = 22524. Caption, % of Total.Train = 2.04. Caption, % of Total.Test = 1.77. Caption, % of Total.Val = 2.32. Caption, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Caption, Count = 22524. Caption, % of Total.Train = 2.04. Caption, % of Total.Test = 1.77. Caption, % of Total.Val = 2.32. Caption, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 72 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+@0.5-0.95 (%).All = 84-89. Caption, triple inter-annotator mAP @0.5-0.95 (%).Fin = 40-61. Caption, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).All = 84-89. Caption, triple inter-annotator mAP @0.5-0.95 (%).Fin = 40-61. Caption, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 73 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+@0.5-0.95 (%).Man = 86-92. Caption, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-99. Caption, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Man = 86-92. Caption, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-99. Caption, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 74 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+@0.5-0.95 (%).Law = 95-99. Caption, triple inter-annotator mAP @0.5-0.95 (%).Pat = 69-78. Caption, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Law = 95-99. Caption, triple inter-annotator mAP @0.5-0.95 (%).Pat = 69-78. Caption, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 75 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+@0.5-0.95 (%).Ten = n/a. Footnote, Count = 6318. Footnote, % of Total.Train = 0.60. Footnote, % of Total.Test = 0.31. Footnote, % of
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Ten = n/a. Footnote, Count = 6318. Footnote, % of Total.Train = 0.60. Footnote, % of Total.Test = 0.31. Footnote, % of
+
+------------------------------------------------------------
+
+=== CHUNK 76 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Total.Val = 0.58. Footnote, triple inter-annotator mAP @0.5-0.95 (%).All = 83-91. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Fin
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Total.Val = 0.58. Footnote, triple inter-annotator mAP @0.5-0.95 (%).All = 83-91. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Fin
+
+------------------------------------------------------------
+
+=== CHUNK 77 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= n/a. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Man = 100. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Sci = 62-88.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+= n/a. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Man = 100. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Sci = 62-88.
+
+------------------------------------------------------------
+
+=== CHUNK 78 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Footnote, triple inter-annotator mAP @0.5-0.95 (%).Law = 85-94. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Pat = n/a. Footnote,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Footnote, triple inter-annotator mAP @0.5-0.95 (%).Law = 85-94. Footnote, triple inter-annotator mAP @0.5-0.95 (%).Pat = n/a. Footnote,
+
+------------------------------------------------------------
+
+=== CHUNK 79 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+triple inter-annotator mAP @0.5-0.95 (%).Ten = 82-97. Formula, Count = 25027. Formula, % of Total.Train = 2.25. Formula, % of Total.Test = 1.90. Formula, %
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+triple inter-annotator mAP @0.5-0.95 (%).Ten = 82-97. Formula, Count = 25027. Formula, % of Total.Train = 2.25. Formula, % of Total.Test = 1.90. Formula, %
+
+------------------------------------------------------------
+
+=== CHUNK 80 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+of Total.Val = 2.96. Formula, triple inter-annotator mAP @0.5-0.95 (%).All = 83-85. Formula, triple inter-annotator mAP @0.5-0.95 (%).Fin =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+of Total.Val = 2.96. Formula, triple inter-annotator mAP @0.5-0.95 (%).All = 83-85. Formula, triple inter-annotator mAP @0.5-0.95 (%).Fin =
+
+------------------------------------------------------------
+
+=== CHUNK 81 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+n/a. Formula, triple inter-annotator mAP @0.5-0.95 (%).Man = n/a. Formula, triple inter-annotator mAP @0.5-0.95 (%).Sci = 84-87.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+n/a. Formula, triple inter-annotator mAP @0.5-0.95 (%).Man = n/a. Formula, triple inter-annotator mAP @0.5-0.95 (%).Sci = 84-87.
+
+------------------------------------------------------------
+
+=== CHUNK 82 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Formula, triple inter-annotator mAP @0.5-0.95 (%).Law = 86-96. Formula, triple inter-annotator mAP @0.5-0.95 (%).Pat = n/a. Formula, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Formula, triple inter-annotator mAP @0.5-0.95 (%).Law = 86-96. Formula, triple inter-annotator mAP @0.5-0.95 (%).Pat = n/a. Formula, triple
+
+------------------------------------------------------------
+
+=== CHUNK 83 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Ten = n/a. List-item, Count = 185660. List-item, % of Total.Train = 17.19. List-item, % of Total.Test =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Ten = n/a. List-item, Count = 185660. List-item, % of Total.Train = 17.19. List-item, % of Total.Test =
+
+------------------------------------------------------------
+
+=== CHUNK 84 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+13.34. List-item, % of Total.Val = 15.82. List-item, triple inter-annotator mAP @0.5-0.95 (%).All = 87-88. List-item, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+13.34. List-item, % of Total.Val = 15.82. List-item, triple inter-annotator mAP @0.5-0.95 (%).All = 87-88. List-item, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 85 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Fin = 74-83. List-item, triple inter-annotator mAP @0.5-0.95 (%).Man = 90-92. List-item, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Fin = 74-83. List-item, triple inter-annotator mAP @0.5-0.95 (%).Man = 90-92. List-item, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 86 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Sci = 97-97. List-item, triple inter-annotator mAP @0.5-0.95 (%).Law = 81-85. List-item, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Sci = 97-97. List-item, triple inter-annotator mAP @0.5-0.95 (%).Law = 81-85. List-item, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 87 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+@0.5-0.95 (%).Pat = 75-88. List-item, triple inter-annotator mAP @0.5-0.95 (%).Ten = 93-95. Page-footer, Count = 70878.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Pat = 75-88. List-item, triple inter-annotator mAP @0.5-0.95 (%).Ten = 93-95. Page-footer, Count = 70878.
+
+------------------------------------------------------------
+
+=== CHUNK 88 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Page-footer, % of Total.Train = 6.51. Page-footer, % of Total.Test = 5.58. Page-footer, % of Total.Val = 6.00. Page-footer, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Page-footer, % of Total.Train = 6.51. Page-footer, % of Total.Test = 5.58. Page-footer, % of Total.Val = 6.00. Page-footer, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 89 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+@0.5-0.95 (%).All = 93-94. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Fin = 88-90. Page-footer, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).All = 93-94. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Fin = 88-90. Page-footer, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 90 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Man = 95-96. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Sci = 100. Page-footer, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Man = 95-96. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Sci = 100. Page-footer, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 91 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Law = 92-97. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Pat = 100. Page-footer, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Law = 92-97. Page-footer, triple inter-annotator mAP @0.5-0.95 (%).Pat = 100. Page-footer, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 92 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+@0.5-0.95 (%).Ten = 96-98. Page-header, Count = 58022. Page-header, % of Total.Train = 5.10. Page-header, % of Total.Test = 6.70. Page-header,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Ten = 96-98. Page-header, Count = 58022. Page-header, % of Total.Train = 5.10. Page-header, % of Total.Test = 6.70. Page-header,
+
+------------------------------------------------------------
+
+=== CHUNK 93 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+% of Total.Val = 5.06. Page-header, triple inter-annotator mAP @0.5-0.95 (%).All = 85-89. Page-header, triple inter-annotator mAP @0.5-0.95
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+% of Total.Val = 5.06. Page-header, triple inter-annotator mAP @0.5-0.95 (%).All = 85-89. Page-header, triple inter-annotator mAP @0.5-0.95
+
+------------------------------------------------------------
+
+=== CHUNK 94 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+(%).Fin = 66-76. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Man = 90-94. Page-header, triple inter-annotator mAP @0.5-0.95
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+(%).Fin = 66-76. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Man = 90-94. Page-header, triple inter-annotator mAP @0.5-0.95
+
+------------------------------------------------------------
+
+=== CHUNK 95 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+(%).Sci = 98-100. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Law = 91-92. Page-header, triple inter-annotator mAP @0.5-0.95
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+(%).Sci = 98-100. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Law = 91-92. Page-header, triple inter-annotator mAP @0.5-0.95
+
+------------------------------------------------------------
+
+=== CHUNK 96 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+(%).Pat = 97-99. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Ten = 81-86. Picture, Count = 45976. Picture, % of Total.Train =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+(%).Pat = 97-99. Page-header, triple inter-annotator mAP @0.5-0.95 (%).Ten = 81-86. Picture, Count = 45976. Picture, % of Total.Train =
+
+------------------------------------------------------------
+
+=== CHUNK 97 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+4.21. Picture, % of Total.Test = 2.78. Picture, % of Total.Val = 5.31. Picture, triple inter-annotator mAP @0.5-0.95 (%).All = 69-71. Picture, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+4.21. Picture, % of Total.Test = 2.78. Picture, % of Total.Val = 5.31. Picture, triple inter-annotator mAP @0.5-0.95 (%).All = 69-71. Picture, triple
+
+------------------------------------------------------------
+
+=== CHUNK 98 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Fin = 56-59. Picture, triple inter-annotator mAP @0.5-0.95 (%).Man = 82-86. Picture, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Fin = 56-59. Picture, triple inter-annotator mAP @0.5-0.95 (%).Man = 82-86. Picture, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 99 ===
+Tokens (Original): 55
+Tokens (mit Kontext): 60
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Sci = 69-82. Picture, triple inter-annotator mAP @0.5-0.95 (%).Law = 80-95. Picture, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Sci = 69-82. Picture, triple inter-annotator mAP @0.5-0.95 (%).Law = 80-95. Picture, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 100 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+@0.5-0.95 (%).Pat = 66-71. Picture, triple inter-annotator mAP @0.5-0.95 (%).Ten = 59-76. Section-header, Count = 142884.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Pat = 66-71. Picture, triple inter-annotator mAP @0.5-0.95 (%).Ten = 59-76. Section-header, Count = 142884.
+
+------------------------------------------------------------
+
+=== CHUNK 101 ===
+Tokens (Original): 53
+Tokens (mit Kontext): 58
+
+--- Original-Text ---
+Section-header, % of Total.Train = 12.60. Section-header, % of Total.Test = 15.77. Section-header, % of Total.Val = 12.85. Section-header, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Section-header, % of Total.Train = 12.60. Section-header, % of Total.Test = 15.77. Section-header, % of Total.Val = 12.85. Section-header, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 102 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).All = 83-84. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Fin = 76-81. Section-header, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).All = 83-84. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Fin = 76-81. Section-header, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 103 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Man = 90-92. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-95. Section-header, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Man = 90-92. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-95. Section-header, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 104 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Law = 87-94. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Pat = 69-73. Section-header, triple inter-annotator mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Law = 87-94. Section-header, triple inter-annotator mAP @0.5-0.95 (%).Pat = 69-73. Section-header, triple inter-annotator mAP
+
+------------------------------------------------------------
+
+=== CHUNK 105 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+@0.5-0.95 (%).Ten = 78-86. Table, Count = 34733. Table, % of Total.Train = 3.20. Table, % of Total.Test = 2.27. Table, % of Total.Val =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+@0.5-0.95 (%).Ten = 78-86. Table, Count = 34733. Table, % of Total.Train = 3.20. Table, % of Total.Test = 2.27. Table, % of Total.Val =
+
+------------------------------------------------------------
+
+=== CHUNK 106 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+3.60. Table, triple inter-annotator mAP @0.5-0.95 (%).All = 77-81. Table, triple inter-annotator mAP @0.5-0.95 (%).Fin = 75-80.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+3.60. Table, triple inter-annotator mAP @0.5-0.95 (%).All = 77-81. Table, triple inter-annotator mAP @0.5-0.95 (%).Fin = 75-80.
+
+------------------------------------------------------------
+
+=== CHUNK 107 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Table, triple inter-annotator mAP @0.5-0.95 (%).Man = 83-86. Table, triple inter-annotator mAP @0.5-0.95 (%).Sci = 98-99. Table, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Table, triple inter-annotator mAP @0.5-0.95 (%).Man = 83-86. Table, triple inter-annotator mAP @0.5-0.95 (%).Sci = 98-99. Table, triple
+
+------------------------------------------------------------
+
+=== CHUNK 108 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Law = 58-80. Table, triple inter-annotator mAP @0.5-0.95 (%).Pat = 79-84. Table, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Law = 58-80. Table, triple inter-annotator mAP @0.5-0.95 (%).Pat = 79-84. Table, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 109 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Ten = 70-85. Text, Count = 510377. Text, % of Total.Train = 45.82. Text, % of Total.Test = 49.28. Text, % of Total.Val =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Ten = 70-85. Text, Count = 510377. Text, % of Total.Train = 45.82. Text, % of Total.Test = 49.28. Text, % of Total.Val =
+
+------------------------------------------------------------
+
+=== CHUNK 110 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+45.00. Text, triple inter-annotator mAP @0.5-0.95 (%).All = 84-86. Text, triple inter-annotator mAP @0.5-0.95 (%).Fin = 81-86.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+45.00. Text, triple inter-annotator mAP @0.5-0.95 (%).All = 84-86. Text, triple inter-annotator mAP @0.5-0.95 (%).Fin = 81-86.
+
+------------------------------------------------------------
+
+=== CHUNK 111 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Text, triple inter-annotator mAP @0.5-0.95 (%).Man = 88-93. Text, triple inter-annotator mAP @0.5-0.95 (%).Sci = 89-93. Text, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Text, triple inter-annotator mAP @0.5-0.95 (%).Man = 88-93. Text, triple inter-annotator mAP @0.5-0.95 (%).Sci = 89-93. Text, triple
+
+------------------------------------------------------------
+
+=== CHUNK 112 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Law = 87-92. Text, triple inter-annotator mAP @0.5-0.95 (%).Pat = 71-79. Text, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Law = 87-92. Text, triple inter-annotator mAP @0.5-0.95 (%).Pat = 71-79. Text, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 113 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Ten = 87-95. Title, Count = 5071. Title, % of Total.Train = 0.47. Title, % of Total.Test = 0.30. Title, % of Total.Val =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Ten = 87-95. Title, Count = 5071. Title, % of Total.Train = 0.47. Title, % of Total.Test = 0.30. Title, % of Total.Val =
+
+------------------------------------------------------------
+
+=== CHUNK 114 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+0.50. Title, triple inter-annotator mAP @0.5-0.95 (%).All = 60-72. Title, triple inter-annotator mAP @0.5-0.95 (%).Fin = 24-63.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+0.50. Title, triple inter-annotator mAP @0.5-0.95 (%).All = 60-72. Title, triple inter-annotator mAP @0.5-0.95 (%).Fin = 24-63.
+
+------------------------------------------------------------
+
+=== CHUNK 115 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Title, triple inter-annotator mAP @0.5-0.95 (%).Man = 50-63. Title, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-100. Title, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Title, triple inter-annotator mAP @0.5-0.95 (%).Man = 50-63. Title, triple inter-annotator mAP @0.5-0.95 (%).Sci = 94-100. Title, triple
+
+------------------------------------------------------------
+
+=== CHUNK 116 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Law = 82-96. Title, triple inter-annotator mAP @0.5-0.95 (%).Pat = 68-79. Title, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Law = 82-96. Title, triple inter-annotator mAP @0.5-0.95 (%).Pat = 68-79. Title, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 117 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Ten = 24-56. Total, Count = 1107470. Total, % of Total.Train = 941123. Total, % of Total.Test = 99816. Total, % of Total.Val
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Ten = 24-56. Total, Count = 1107470. Total, % of Total.Train = 941123. Total, % of Total.Test = 99816. Total, % of Total.Val
+
+------------------------------------------------------------
+
+=== CHUNK 118 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= 66531. Total, triple inter-annotator mAP @0.5-0.95 (%).All = 82-83. Total, triple inter-annotator mAP @0.5-0.95 (%).Fin = 71-74.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+= 66531. Total, triple inter-annotator mAP @0.5-0.95 (%).All = 82-83. Total, triple inter-annotator mAP @0.5-0.95 (%).Fin = 71-74.
+
+------------------------------------------------------------
+
+=== CHUNK 119 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Total, triple inter-annotator mAP @0.5-0.95 (%).Man = 79-81. Total, triple inter-annotator mAP @0.5-0.95 (%).Sci = 89-94. Total, triple
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Total, triple inter-annotator mAP @0.5-0.95 (%).Man = 79-81. Total, triple inter-annotator mAP @0.5-0.95 (%).Sci = 89-94. Total, triple
+
+------------------------------------------------------------
+
+=== CHUNK 120 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inter-annotator mAP @0.5-0.95 (%).Law = 86-91. Total, triple inter-annotator mAP @0.5-0.95 (%).Pat = 71-76. Total, triple inter-annotator
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+inter-annotator mAP @0.5-0.95 (%).Law = 86-91. Total, triple inter-annotator mAP @0.5-0.95 (%).Pat = 71-76. Total, triple inter-annotator
+
+------------------------------------------------------------
+
+=== CHUNK 121 ===
+Tokens (Original): 19
+Tokens (mit Kontext): 24
+
+--- Original-Text ---
+mAP @0.5-0.95 (%).Ten = 68-85
+Filter
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+mAP @0.5-0.95 (%).Ten = 68-85
+Filter
+
+------------------------------------------------------------
+
+=== CHUNK 122 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Figure 3: Corpus Conversion Service annotation user interface. The PDF page is shown in the background, with overlaid text-cells (in darker shades). The annotation boxes can be drawn by dragging a rectangle over each segment with the respective label from the palette on the
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Figure 3: Corpus Conversion Service annotation user interface. The PDF page is shown in the background, with overlaid text-cells (in darker shades). The annotation boxes can be drawn by dragging a rectangle over each segment with the respective label from the palette on the
+
+------------------------------------------------------------
+
+=== CHUNK 123 ===
+Tokens (Original): 47
+Tokens (mit Kontext): 52
+
+--- Original-Text ---
+right.
+we distributed the annotation workload and performed continuous quality controls. Phase one and two required a small team of experts only. For phases three and four, a group of 40 dedicated annotators were assembled and supervised.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+right.
+we distributed the annotation workload and performed continuous quality controls. Phase one and two required a small team of experts only. For phases three and four, a group of 40 dedicated annotators were assembled and supervised.
+
+------------------------------------------------------------
+
+=== CHUNK 124 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Phase 1: Data selection and preparation. Our inclusion criteria for documents were described in Section 3. A large effort went into ensuring that all documents are free to use. The data sources include publication repositories such as arXiv 3 , government offices, company websites as well as data directory
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Phase 1: Data selection and preparation. Our inclusion criteria for documents were described in Section 3. A large effort went into ensuring that all documents are free to use. The data sources include publication repositories such as arXiv 3 , government offices, company websites as well as data directory
+
+------------------------------------------------------------
+
+=== CHUNK 125 ===
+Tokens (Original): 50
+Tokens (mit Kontext): 55
+
+--- Original-Text ---
+services for financial reports and patents. Scanned documents were excluded wherever possible because they can be rotated or skewed. This would not allow us to perform annotation with rectangular bounding-boxes and therefore complicate the annotation process.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+services for financial reports and patents. Scanned documents were excluded wherever possible because they can be rotated or skewed. This would not allow us to perform annotation with rectangular bounding-boxes and therefore complicate the annotation process.
+
+------------------------------------------------------------
+
+=== CHUNK 126 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Preparation work included uploading and parsing the sourced PDF documents in the Corpus Conversion Service (CCS) [22], a cloud-native platform which provides a visual annotation interface and allows for dataset inspection and analysis. The annotation interface of CCS is shown in Figure
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Preparation work included uploading and parsing the sourced PDF documents in the Corpus Conversion Service (CCS) [22], a cloud-native platform which provides a visual annotation interface and allows for dataset inspection and analysis. The annotation interface of CCS is shown in Figure
+
+------------------------------------------------------------
+
+=== CHUNK 127 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+3. The desired balance of pages between the different document categories was achieved by selective subsampling of pages with certain desired properties. For example, we made sure to include the title page of each document and bias the remaining page selection to those with figures or tables. The latter was achieved by
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+3. The desired balance of pages between the different document categories was achieved by selective subsampling of pages with certain desired properties. For example, we made sure to include the title page of each document and bias the remaining page selection to those with figures or tables. The latter was achieved by
+
+------------------------------------------------------------
+
+=== CHUNK 128 ===
+Tokens (Original): 27
+Tokens (mit Kontext): 32
+
+--- Original-Text ---
+leveraging pre-trained object detection models from PubLayNet, which helped us estimate how many figures and tables a given page contains.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+leveraging pre-trained object detection models from PubLayNet, which helped us estimate how many figures and tables a given page contains.
+
+------------------------------------------------------------
+
+=== CHUNK 129 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Phase 2: Label selection and guideline. We reviewed the collected documents and identified the most common structural features they exhibit. This was achieved by identifying recurrent layout elements and lead us to the definition of 11 distinct class labels. These 11 class labels are Caption , Footnote , Formula ,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Phase 2: Label selection and guideline. We reviewed the collected documents and identified the most common structural features they exhibit. This was achieved by identifying recurrent layout elements and lead us to the definition of 11 distinct class labels. These 11 class labels are Caption , Footnote , Formula ,
+
+------------------------------------------------------------
+
+=== CHUNK 130 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+List-item , Pagefooter , Page-header , Picture , Section-header , Table , Text , and Title . Critical factors that were considered for the choice of these class labels were (1) the overall occurrence of the label, (2) the specificity of the label,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+List-item , Pagefooter , Page-header , Picture , Section-header , Table , Text , and Title . Critical factors that were considered for the choice of these class labels were (1) the overall occurrence of the label, (2) the specificity of the label,
+
+------------------------------------------------------------
+
+=== CHUNK 131 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+(3) recognisability on a single page (i.e. no need for context from previous or next page) and (4) overall coverage of the page. Specificity ensures that the choice of label is not ambiguous, while coverage ensures that all meaningful items on a page can
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+(3) recognisability on a single page (i.e. no need for context from previous or next page) and (4) overall coverage of the page. Specificity ensures that the choice of label is not ambiguous, while coverage ensures that all meaningful items on a page can
+
+------------------------------------------------------------
+
+=== CHUNK 132 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+be annotated. We refrained from class labels that are very specific to a document category, such as Abstract in the Scientific Articles category. We also avoided class labels that are tightly linked to the semantics of the text. Labels such as Author and Affiliation , as seen in DocBank, are
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+be annotated. We refrained from class labels that are very specific to a document category, such as Abstract in the Scientific Articles category. We also avoided class labels that are tightly linked to the semantics of the text. Labels such as Author and Affiliation , as seen in DocBank, are
+
+------------------------------------------------------------
+
+=== CHUNK 133 ===
+Tokens (Original): 42
+Tokens (mit Kontext): 47
+
+--- Original-Text ---
+often only distinguishable by discriminating on
+3 https://arxiv.org/
+" analysis
+NOD 44, August 14-10, 2044, Washing on, De, USA
+Compliant with guidelines
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+often only distinguishable by discriminating on
+3 https://arxiv.org/
+" analysis
+NOD 44, August 14-10, 2044, Washing on, De, USA
+Compliant with guidelines
+
+------------------------------------------------------------
+
+=== CHUNK 134 ===
+Tokens (Original): 26
+Tokens (mit Kontext): 31
+
+--- Original-Text ---
+Plausible but invalid alternative the textual content of an element, which goes beyond visual layout recognition, in particular outside the Scientific Articles category.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Plausible but invalid alternative the textual content of an element, which goes beyond visual layout recognition, in particular outside the Scientific Articles category.
+
+------------------------------------------------------------
+
+=== CHUNK 135 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+At first sight, the task of visual document-layout interpretation appears intuitive enough to obtain plausible annotations in most cases. However, during early trial-runs in the core team, we observed many cases in which annotators use different annotation styles, especially for documents with challenging
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+At first sight, the task of visual document-layout interpretation appears intuitive enough to obtain plausible annotations in most cases. However, during early trial-runs in the core team, we observed many cases in which annotators use different annotation styles, especially for documents with challenging
+
+------------------------------------------------------------
+
+=== CHUNK 136 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+layouts. For example, if a figure is presented with subfigures, one annotator might draw a single figure bounding-box, while another might annotate each subfigure separately. The same applies for lists, where one might annotate all list items
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+layouts. For example, if a figure is presented with subfigures, one annotator might draw a single figure bounding-box, while another might annotate each subfigure separately. The same applies for lists, where one might annotate all list items
+
+------------------------------------------------------------
+
+=== CHUNK 137 ===
+Tokens (Original): 52
+Tokens (mit Kontext): 57
+
+--- Original-Text ---
+in one block or each list item separately. In essence, we observed that challenging layouts would be annotated in different but plausible ways. To illustrate this, we show in Figure 4 multiple examples of plausible but inconsistent annotations on the same pages.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+in one block or each list item separately. In essence, we observed that challenging layouts would be annotated in different but plausible ways. To illustrate this, we show in Figure 4 multiple examples of plausible but inconsistent annotations on the same pages.
+
+------------------------------------------------------------
+
+=== CHUNK 138 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Obviously, this inconsistency in annotations is not desirable for datasets which are intended to be used for model training. To minimise these inconsistencies, we created a detailed annotation guideline. While perfect consistency across 40 annotation staff members is clearly
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Obviously, this inconsistency in annotations is not desirable for datasets which are intended to be used for model training. To minimise these inconsistencies, we created a detailed annotation guideline. While perfect consistency across 40 annotation staff members is clearly
+
+------------------------------------------------------------
+
+=== CHUNK 139 ===
+Tokens (Original): 40
+Tokens (mit Kontext): 45
+
+--- Original-Text ---
+not possible to achieve, we saw a huge improvement in annotation consistency after the introduction of our annotation guideline. A few selected, non-trivial highlights of the guideline are:
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+not possible to achieve, we saw a huge improvement in annotation consistency after the introduction of our annotation guideline. A few selected, non-trivial highlights of the guideline are:
+
+------------------------------------------------------------
+
+=== CHUNK 140 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 50
+
+--- Original-Text ---
+- (1) Every list-item is an individual object instance with class label List-item . This definition is different from PubLayNet and DocBank, where all list-items are grouped together into one List object.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+- (1) Every list-item is an individual object instance with class label List-item . This definition is different from PubLayNet and DocBank, where all list-items are grouped together into one List object.
+
+------------------------------------------------------------
+
+=== CHUNK 141 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 50
+
+--- Original-Text ---
+- (2) A List-item is a paragraph with hanging indentation. Singleline elements can qualify as List-item if the neighbour elements expose hanging indentation. Bullet or enumeration symbols are not a requirement.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+- (2) A List-item is a paragraph with hanging indentation. Singleline elements can qualify as List-item if the neighbour elements expose hanging indentation. Bullet or enumeration symbols are not a requirement.
+
+------------------------------------------------------------
+
+=== CHUNK 142 ===
+Tokens (Original): 48
+Tokens (mit Kontext): 53
+
+--- Original-Text ---
+- (3) For every Caption , there must be exactly one corresponding Picture or Table .
+- (4) Connected sub-pictures are grouped together in one Picture object.
+- (5) Formula numbers are included in a Formula object.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+- (3) For every Caption , there must be exactly one corresponding Picture or Table .
+- (4) Connected sub-pictures are grouped together in one Picture object.
+- (5) Formula numbers are included in a Formula object.
+
+------------------------------------------------------------
+
+=== CHUNK 143 ===
+Tokens (Original): 41
+Tokens (mit Kontext): 46
+
+--- Original-Text ---
+- (6) Emphasised text (e.g. in italic or bold) at the beginning of a paragraph is not considered a Section-header , unless it appears exclusively on its own line.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+- (6) Emphasised text (e.g. in italic or bold) at the beginning of a paragraph is not considered a Section-header , unless it appears exclusively on its own line.
+
+------------------------------------------------------------
+
+=== CHUNK 144 ===
+Tokens (Original): 42
+Tokens (mit Kontext): 47
+
+--- Original-Text ---
+The complete annotation guideline is over 100 pages long and a detailed description is obviously out of scope for this paper. Nevertheless, it will be made publicly available alongside with DocLayNet for future reference.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+The complete annotation guideline is over 100 pages long and a detailed description is obviously out of scope for this paper. Nevertheless, it will be made publicly available alongside with DocLayNet for future reference.
+
+------------------------------------------------------------
+
+=== CHUNK 145 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Phase 3: Training. After a first trial with a small group of people, we realised that providing the annotation guideline and a set of random practice pages did not yield the desired quality level for layout annotation. Therefore we prepared a subset of pages with two different complexity levels,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Phase 3: Training. After a first trial with a small group of people, we realised that providing the annotation guideline and a set of random practice pages did not yield the desired quality level for layout annotation. Therefore we prepared a subset of pages with two different complexity levels,
+
+------------------------------------------------------------
+
+=== CHUNK 146 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+each with a practice and an exam part. 974 pages were reference-annotated by one proficient core team member. Annotation staff were then given the task to annotate the same subsets (blinded from the reference). By comparing the annotations of each staff member
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+each with a practice and an exam part. 974 pages were reference-annotated by one proficient core team member. Annotation staff were then given the task to annotate the same subsets (blinded from the reference). By comparing the annotations of each staff member
+
+------------------------------------------------------------
+
+=== CHUNK 147 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 50
+
+--- Original-Text ---
+with the reference annotations, we could quantify how closely their annotations matched the reference. Only after passing two exam levels with high annotation quality, staff were admitted into the production phase. Practice iterations
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+with the reference annotations, we could quantify how closely their annotations matched the reference. Only after passing two exam levels with high annotation quality, staff were admitted into the production phase. Practice iterations
+
+------------------------------------------------------------
+
+=== CHUNK 148 ===
+Tokens (Original): 46
+Tokens (mit Kontext): 51
+
+--- Original-Text ---
+05237a14f2524e3f53c8454b074409d05078038a6a36b770fcc8ec7e540deae0
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+05237a14f2524e3f53c8454b074409d05078038a6a36b770fcc8ec7e540deae0
+
+------------------------------------------------------------
+
+=== CHUNK 149 ===
+Tokens (Original): 37
+Tokens (mit Kontext): 42
+
+--- Original-Text ---
+Figure 4: Examples of plausible annotation alternatives for the same page. Criteria in our annotation guideline can resolve cases A to C, while the case D remains ambiguous.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Figure 4: Examples of plausible annotation alternatives for the same page. Criteria in our annotation guideline can resolve cases A to C, while the case D remains ambiguous.
+
+------------------------------------------------------------
+
+=== CHUNK 150 ===
+Tokens (Original): 28
+Tokens (mit Kontext): 33
+
+--- Original-Text ---
+were carried out over a timeframe of 12 weeks, after which 8 of the 40 initially allocated annotators did not pass the bar.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+were carried out over a timeframe of 12 weeks, after which 8 of the 40 initially allocated annotators did not pass the bar.
+
+------------------------------------------------------------
+
+=== CHUNK 151 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Phase 4: Production annotation. The previously selected 80K pages were annotated with the defined 11 class labels by 32 annotators. This production phase took around three months to complete. All annotations were created online through CCS, which visualises the programmatic PDF
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Phase 4: Production annotation. The previously selected 80K pages were annotated with the defined 11 class labels by 32 annotators. This production phase took around three months to complete. All annotations were created online through CCS, which visualises the programmatic PDF
+
+------------------------------------------------------------
+
+=== CHUNK 152 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+text-cells as an overlay on the page. The page annotation are obtained by drawing rectangular bounding-boxes, as shown in Figure 3. With regard to the annotation practices, we implemented a few constraints and capabilities on the tooling level. First, we only allow
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+text-cells as an overlay on the page. The page annotation are obtained by drawing rectangular bounding-boxes, as shown in Figure 3. With regard to the annotation practices, we implemented a few constraints and capabilities on the tooling level. First, we only allow
+
+------------------------------------------------------------
+
+=== CHUNK 153 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+non-overlapping, vertically oriented, rectangular boxes. For the large majority of documents, this constraint was sufficient and it speeds up the annotation considerably in comparison with arbitrary segmentation shapes. Second, annotator staff were not able to see each other's annotations. This was
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+non-overlapping, vertically oriented, rectangular boxes. For the large majority of documents, this constraint was sufficient and it speeds up the annotation considerably in comparison with arbitrary segmentation shapes. Second, annotator staff were not able to see each other's annotations. This was
+
+------------------------------------------------------------
+
+=== CHUNK 154 ===
+Tokens (Original): 35
+Tokens (mit Kontext): 40
+
+--- Original-Text ---
+enforced by design to avoid any bias in the annotation, which could skew the numbers of the inter-annotator agreement (see Table 1). We wanted
+
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+enforced by design to avoid any bias in the annotation, which could skew the numbers of the inter-annotator agreement (see Table 1). We wanted
+
+
+------------------------------------------------------------
+
+=== CHUNK 155 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Table 2: Prediction performance (mAP@0.5-0.95) of object detection networks on DocLayNet test set. The MRCNN (Mask R-CNN) and FRCNN (Faster R-CNN) models with ResNet-50 or ResNet-101 backbone
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Table 2: Prediction performance (mAP@0.5-0.95) of object detection networks on DocLayNet test set. The MRCNN (Mask R-CNN) and FRCNN (Faster R-CNN) models with ResNet-50 or ResNet-101 backbone
+
+------------------------------------------------------------
+
+=== CHUNK 156 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+were trained based on the network architectures from the detectron2 model zoo (Mask R-CNN R50, R101-FPN 3x, Faster R-CNN R101-FPN 3x), with default configurations. The YOLO implementation utilized was
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+were trained based on the network architectures from the detectron2 model zoo (Mask R-CNN R50, R101-FPN 3x, Faster R-CNN R101-FPN 3x), with default configurations. The YOLO implementation utilized was
+
+------------------------------------------------------------
+
+=== CHUNK 157 ===
+Tokens (Original): 26
+Tokens (mit Kontext): 31
+
+--- Original-Text ---
+YOLOv5x6 [13]. All models were initialised using pre-trained weights from the COCO 2017 dataset.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+YOLOv5x6 [13]. All models were initialised using pre-trained weights from the COCO 2017 dataset.
+
+------------------------------------------------------------
+
+=== CHUNK 158 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Caption, human. = 84-89. Caption, MRCNN.R50 = 68.4. Caption, MRCNN.R101 = 71.5. Caption, FRCNN.R101 = 70.1. Caption,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Caption, human. = 84-89. Caption, MRCNN.R50 = 68.4. Caption, MRCNN.R101 = 71.5. Caption, FRCNN.R101 = 70.1. Caption,
+
+------------------------------------------------------------
+
+=== CHUNK 159 ===
+Tokens (Original): 54
+Tokens (mit Kontext): 59
+
+--- Original-Text ---
+YOLO.v5x6 = 77.7. Footnote, human. = 83-91. Footnote, MRCNN.R50 = 70.9. Footnote, MRCNN.R101 = 71.8. Footnote,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+YOLO.v5x6 = 77.7. Footnote, human. = 83-91. Footnote, MRCNN.R50 = 70.9. Footnote, MRCNN.R101 = 71.8. Footnote,
+
+------------------------------------------------------------
+
+=== CHUNK 160 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+FRCNN.R101 = 73.7. Footnote, YOLO.v5x6 = 77.2. Formula, human. = 83-85. Formula, MRCNN.R50 = 60.1. Formula, MRCNN.R101 =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+FRCNN.R101 = 73.7. Footnote, YOLO.v5x6 = 77.2. Formula, human. = 83-85. Formula, MRCNN.R50 = 60.1. Formula, MRCNN.R101 =
+
+------------------------------------------------------------
+
+=== CHUNK 161 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+63.4. Formula, FRCNN.R101 = 63.5. Formula, YOLO.v5x6 = 66.2. List-item, human. = 87-88. List-item, MRCNN.R50 = 81.2.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+63.4. Formula, FRCNN.R101 = 63.5. Formula, YOLO.v5x6 = 66.2. List-item, human. = 87-88. List-item, MRCNN.R50 = 81.2.
+
+------------------------------------------------------------
+
+=== CHUNK 162 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+List-item, MRCNN.R101 = 80.8. List-item, FRCNN.R101 = 81.0. List-item, YOLO.v5x6 = 86.2. Page-footer, human. =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+List-item, MRCNN.R101 = 80.8. List-item, FRCNN.R101 = 81.0. List-item, YOLO.v5x6 = 86.2. Page-footer, human. =
+
+------------------------------------------------------------
+
+=== CHUNK 163 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+93-94. Page-footer, MRCNN.R50 = 61.6. Page-footer, MRCNN.R101 = 59.3. Page-footer, FRCNN.R101 = 58.9. Page-footer,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+93-94. Page-footer, MRCNN.R50 = 61.6. Page-footer, MRCNN.R101 = 59.3. Page-footer, FRCNN.R101 = 58.9. Page-footer,
+
+------------------------------------------------------------
+
+=== CHUNK 164 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+YOLO.v5x6 = 61.1. Page-header, human. = 85-89. Page-header, MRCNN.R50 = 71.9. Page-header, MRCNN.R101 = 70.0. Page-header,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+YOLO.v5x6 = 61.1. Page-header, human. = 85-89. Page-header, MRCNN.R50 = 71.9. Page-header, MRCNN.R101 = 70.0. Page-header,
+
+------------------------------------------------------------
+
+=== CHUNK 165 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+FRCNN.R101 = 72.0. Page-header, YOLO.v5x6 = 67.9. Picture, human. = 69-71. Picture, MRCNN.R50 = 71.7. Picture, MRCNN.R101
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+FRCNN.R101 = 72.0. Page-header, YOLO.v5x6 = 67.9. Picture, human. = 69-71. Picture, MRCNN.R50 = 71.7. Picture, MRCNN.R101
+
+------------------------------------------------------------
+
+=== CHUNK 166 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= 72.7. Picture, FRCNN.R101 = 72.0. Picture, YOLO.v5x6 = 77.1. Section-header, human. = 83-84. Section-header, MRCNN.R50 = 67.6.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+= 72.7. Picture, FRCNN.R101 = 72.0. Picture, YOLO.v5x6 = 77.1. Section-header, human. = 83-84. Section-header, MRCNN.R50 = 67.6.
+
+------------------------------------------------------------
+
+=== CHUNK 167 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Section-header, MRCNN.R101 = 69.3. Section-header, FRCNN.R101 = 68.4. Section-header, YOLO.v5x6 = 74.6. Table, human. = 77-81. Table,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Section-header, MRCNN.R101 = 69.3. Section-header, FRCNN.R101 = 68.4. Section-header, YOLO.v5x6 = 74.6. Table, human. = 77-81. Table,
+
+------------------------------------------------------------
+
+=== CHUNK 168 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+MRCNN.R50 = 82.2. Table, MRCNN.R101 = 82.9. Table, FRCNN.R101 = 82.2. Table, YOLO.v5x6 = 86.3. Text, human. =
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+MRCNN.R50 = 82.2. Table, MRCNN.R101 = 82.9. Table, FRCNN.R101 = 82.2. Table, YOLO.v5x6 = 86.3. Text, human. =
+
+------------------------------------------------------------
+
+=== CHUNK 169 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+84-86. Text, MRCNN.R50 = 84.6. Text, MRCNN.R101 = 85.8. Text, FRCNN.R101 = 85.4. Text, YOLO.v5x6 = 88.1.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+84-86. Text, MRCNN.R50 = 84.6. Text, MRCNN.R101 = 85.8. Text, FRCNN.R101 = 85.4. Text, YOLO.v5x6 = 88.1.
+
+------------------------------------------------------------
+
+=== CHUNK 170 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Title, human. = 60-72. Title, MRCNN.R50 = 76.7. Title, MRCNN.R101 = 80.4. Title, FRCNN.R101 = 79.9. Title, YOLO.v5x6
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+Title, human. = 60-72. Title, MRCNN.R50 = 76.7. Title, MRCNN.R101 = 80.4. Title, FRCNN.R101 = 79.9. Title, YOLO.v5x6
+
+------------------------------------------------------------
+
+=== CHUNK 171 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+= 82.7. All, human. = 82-83. All, MRCNN.R50 = 72.4. All, MRCNN.R101 = 73.5. All, FRCNN.R101 = 73.4. All,
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+= 82.7. All, human. = 82-83. All, MRCNN.R50 = 72.4. All, MRCNN.R101 = 73.5. All, FRCNN.R101 = 73.4. All,
+
+------------------------------------------------------------
+
+=== CHUNK 172 ===
+Tokens (Original): 11
+Tokens (mit Kontext): 16
+
+--- Original-Text ---
+YOLO.v5x6 = 76.8
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+YOLO.v5x6 = 76.8
+
+------------------------------------------------------------
+
+=== CHUNK 173 ===
+Tokens (Original): 57
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+to avoid this at any cost in order to have clear, unbiased baseline numbers for human document-layout annotation. Third, we introduced the feature of snapping boxes around text segments to obtain a pixel-accurate annotation and again reduce time and effort. The CCS
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+to avoid this at any cost in order to have clear, unbiased baseline numbers for human document-layout annotation. Third, we introduced the feature of snapping boxes around text segments to obtain a pixel-accurate annotation and again reduce time and effort. The CCS
+
+------------------------------------------------------------
+
+=== CHUNK 174 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+annotation tool automatically shrinks every user-drawn box to the minimum bounding-box around the enclosed text-cells for all purely text-based segments, which excludes only Table and Picture . For the latter, we instructed annotation staff to minimise inclusion of surrounding whitespace
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+annotation tool automatically shrinks every user-drawn box to the minimum bounding-box around the enclosed text-cells for all purely text-based segments, which excludes only Table and Picture . For the latter, we instructed annotation staff to minimise inclusion of surrounding whitespace
+
+------------------------------------------------------------
+
+=== CHUNK 175 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+while including all graphical lines. A downside of snapping boxes to enclosed text cells is that some wrongly parsed PDF pages cannot be annotated correctly and need to be skipped. Fourth, we established a way to flag pages as rejected for cases where no valid annotation according to the label
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+while including all graphical lines. A downside of snapping boxes to enclosed text cells is that some wrongly parsed PDF pages cannot be annotated correctly and need to be skipped. Fourth, we established a way to flag pages as rejected for cases where no valid annotation according to the label
+
+------------------------------------------------------------
+
+=== CHUNK 176 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+guidelines could be achieved. Example cases for this would be PDF pages that render incorrectly or contain layouts that are impossible to capture with non-overlapping rectangles. Such rejected pages are not contained in the final dataset. With all these measures in place, experienced annotation staff managed to
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+guidelines could be achieved. Example cases for this would be PDF pages that render incorrectly or contain layouts that are impossible to capture with non-overlapping rectangles. Such rejected pages are not contained in the final dataset. With all these measures in place, experienced annotation staff managed to
+
+------------------------------------------------------------
+
+=== CHUNK 177 ===
+Tokens (Original): 21
+Tokens (mit Kontext): 26
+
+--- Original-Text ---
+annotate a single page in a typical timeframe of 20s to 60s, depending on its complexity.
+
+--- Kontextualisierter Text (für Embedding) ---
+4 ANNOTATION CAMPAIGN
+annotate a single page in a typical timeframe of 20s to 60s, depending on its complexity.
+
+------------------------------------------------------------
+
+=== CHUNK 178 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+The primary goal of DocLayNet is to obtain high-quality ML models capable of accurate document-layout analysis on a wide variety of challenging layouts. As discussed in Section 2, object detection models are currently the easiest to use, due to the standardisation of ground-truth data in COCO format
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+The primary goal of DocLayNet is to obtain high-quality ML models capable of accurate document-layout analysis on a wide variety of challenging layouts. As discussed in Section 2, object detection models are currently the easiest to use, due to the standardisation of ground-truth data in COCO format
+
+------------------------------------------------------------
+
+=== CHUNK 179 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+[16] and the availability of general frameworks such as detectron2 [17]. Furthermore, baseline numbers in PubLayNet and DocBank were obtained using standard object detection models such as Mask R-CNN and Faster R-CNN. As such, we will relate to these object detection methods in this
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+[16] and the availability of general frameworks such as detectron2 [17]. Furthermore, baseline numbers in PubLayNet and DocBank were obtained using standard object detection models such as Mask R-CNN and Faster R-CNN. As such, we will relate to these object detection methods in this
+
+------------------------------------------------------------
+
+=== CHUNK 180 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Figure 5: Prediction performance (mAP@0.5-0.95) of a Mask R-CNNnetworkwithResNet50backbonetrainedonincreasing fractions of the DocLayNet dataset. The learning curve flattens around the 80% mark, indicating that increasing the size
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+Figure 5: Prediction performance (mAP@0.5-0.95) of a Mask R-CNNnetworkwithResNet50backbonetrainedonincreasing fractions of the DocLayNet dataset. The learning curve flattens around the 80% mark, indicating that increasing the size
+
+------------------------------------------------------------
+
+=== CHUNK 181 ===
+Tokens (Original): 35
+Tokens (mit Kontext): 37
+
+--- Original-Text ---
+of the DocLayNet dataset with similar data will not yield significantly better predictions.
+paper and leave the detailed evaluation of more recent methods mentioned in Section 2 for future work.
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+of the DocLayNet dataset with similar data will not yield significantly better predictions.
+paper and leave the detailed evaluation of more recent methods mentioned in Section 2 for future work.
+
+------------------------------------------------------------
+
+=== CHUNK 182 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+In this section, we will present several aspects related to the performance of object detection models on DocLayNet. Similarly as in PubLayNet, we will evaluate the quality of their predictions using mean average precision (mAP) with 10 overlaps that range from 0.5 to 0.95 in steps of
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+In this section, we will present several aspects related to the performance of object detection models on DocLayNet. Similarly as in PubLayNet, we will evaluate the quality of their predictions using mean average precision (mAP) with 10 overlaps that range from 0.5 to 0.95 in steps of
+
+------------------------------------------------------------
+
+=== CHUNK 183 ===
+Tokens (Original): 34
+Tokens (mit Kontext): 36
+
+--- Original-Text ---
+0.05 (mAP@0.5-0.95). These scores are computed by leveraging the evaluation code provided by the COCO API [16].
+
+--- Kontextualisierter Text (für Embedding) ---
+5 EXPERIMENTS
+0.05 (mAP@0.5-0.95). These scores are computed by leveraging the evaluation code provided by the COCO API [16].
+
+------------------------------------------------------------
+
+=== CHUNK 184 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+In Table 2, we present baseline experiments (given in mAP) on Mask R-CNN [12], Faster R-CNN [11], and YOLOv5 [13]. Both training and evaluation were performed on RGB images with dimensions of 1025 × 1025 pixels. For
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+In Table 2, we present baseline experiments (given in mAP) on Mask R-CNN [12], Faster R-CNN [11], and YOLOv5 [13]. Both training and evaluation were performed on RGB images with dimensions of 1025 × 1025 pixels. For
+
+------------------------------------------------------------
+
+=== CHUNK 185 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 61
+
+--- Original-Text ---
+training, we only used one annotation in case of redundantly annotated pages. As one can observe, the variation in mAP between the models is rather low, but overall between 6 and 10% lower than the mAP computed from the pairwise human annotations on
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+training, we only used one annotation in case of redundantly annotated pages. As one can observe, the variation in mAP between the models is rather low, but overall between 6 and 10% lower than the mAP computed from the pairwise human annotations on
+
+------------------------------------------------------------
+
+=== CHUNK 186 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+triple-annotated pages. This gives a good indication that the DocLayNet dataset poses a worthwhile challenge for the research community to close the gap between human recognition and ML approaches. It is interesting to see that Mask R-CNN and Faster R-CNN produce very comparable mAP
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+triple-annotated pages. This gives a good indication that the DocLayNet dataset poses a worthwhile challenge for the research community to close the gap between human recognition and ML approaches. It is interesting to see that Mask R-CNN and Faster R-CNN produce very comparable mAP
+
+------------------------------------------------------------
+
+=== CHUNK 187 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+scores, indicating that pixel-based image segmentation derived from bounding-boxes does not help to obtain better predictions. On the other hand, the more recent Yolov5x model does very well and even out-performs humans on selected labels such as Text , Table and Picture . This is
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+scores, indicating that pixel-based image segmentation derived from bounding-boxes does not help to obtain better predictions. On the other hand, the more recent Yolov5x model does very well and even out-performs humans on selected labels such as Text , Table and Picture . This is
+
+------------------------------------------------------------
+
+=== CHUNK 188 ===
+Tokens (Original): 21
+Tokens (mit Kontext): 26
+
+--- Original-Text ---
+not entirely surprising, as Text , Table and Picture are abundant and the most visually distinctive in a document.
+
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+not entirely surprising, as Text , Table and Picture are abundant and the most visually distinctive in a document.
+
+
+------------------------------------------------------------
+
+=== CHUNK 189 ===
+Tokens (Original): 50
+Tokens (mit Kontext): 55
+
+--- Original-Text ---
+Table 3: Performance of a Mask R-CNN R50 network in mAP@0.5-0.95 scores trained on DocLayNet with different class label sets. The reduced label sets were obtained by either down-mapping or dropping labels.
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+Table 3: Performance of a Mask R-CNN R50 network in mAP@0.5-0.95 scores trained on DocLayNet with different class label sets. The reduced label sets were obtained by either down-mapping or dropping labels.
+
+------------------------------------------------------------
+
+=== CHUNK 190 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Caption, 11 = 68. Caption, 6 = Text. Caption, 5 = Text. Caption, 4 = Text. Footnote, 11 = 71. Footnote, 6 = Text. Footnote, 5 = Text. Footnote, 4 = Text. Formula, 11
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+Caption, 11 = 68. Caption, 6 = Text. Caption, 5 = Text. Caption, 4 = Text. Footnote, 11 = 71. Footnote, 6 = Text. Footnote, 5 = Text. Footnote, 4 = Text. Formula, 11
+
+------------------------------------------------------------
+
+=== CHUNK 191 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= 60. Formula, 6 = Text. Formula, 5 = Text. Formula, 4 = Text. List-item, 11 = 81. List-item, 6 = Text. List-item, 5 = 82. List-item, 4 = Text. Page-footer, 11
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+= 60. Formula, 6 = Text. Formula, 5 = Text. Formula, 4 = Text. List-item, 11 = 81. List-item, 6 = Text. List-item, 5 = 82. List-item, 4 = Text. Page-footer, 11
+
+------------------------------------------------------------
+
+=== CHUNK 192 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= 62. Page-footer, 6 = 62. Page-footer, 5 = -. Page-footer, 4 = -. Page-header, 11 = 72. Page-header, 6 = 68. Page-header, 5 = -. Page-header, 4
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+= 62. Page-footer, 6 = 62. Page-footer, 5 = -. Page-footer, 4 = -. Page-header, 11 = 72. Page-header, 6 = 68. Page-header, 5 = -. Page-header, 4
+
+------------------------------------------------------------
+
+=== CHUNK 193 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+= -. Picture, 11 = 72. Picture, 6 = 72. Picture, 5 = 72. Picture, 4 = 72. Section-header, 11 = 68. Section-header, 6 = 67. Section-header, 5 = 69. Section-header, 4 = 68.
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+= -. Picture, 11 = 72. Picture, 6 = 72. Picture, 5 = 72. Picture, 4 = 72. Section-header, 11 = 68. Section-header, 6 = 67. Section-header, 5 = 69. Section-header, 4 = 68.
+
+------------------------------------------------------------
+
+=== CHUNK 194 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+Table, 11 = 82. Table, 6 = 83. Table, 5 = 82. Table, 4 = 82. Text, 11 = 85. Text, 6 = 84. Text, 5 = 84. Text, 4 = 84. Title, 11 = 77. Title, 6 =
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+Table, 11 = 82. Table, 6 = 83. Table, 5 = 82. Table, 4 = 82. Text, 11 = 85. Text, 6 = 84. Text, 5 = 84. Text, 4 = 84. Title, 11 = 77. Title, 6 =
+
+------------------------------------------------------------
+
+=== CHUNK 195 ===
+Tokens (Original): 49
+Tokens (mit Kontext): 54
+
+--- Original-Text ---
+Sec.-h.. Title, 5 = Sec.-h.. Title, 4 = Sec.-h.. Overall, 11 = 72. Overall, 6 = 73. Overall, 5 = 78. Overall, 4 = 77
+
+--- Kontextualisierter Text (für Embedding) ---
+Baselines for Object Detection
+Sec.-h.. Title, 5 = Sec.-h.. Title, 4 = Sec.-h.. Overall, 11 = 72. Overall, 6 = 73. Overall, 5 = 78. Overall, 4 = 77
+
+------------------------------------------------------------
+
+=== CHUNK 196 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+One of the fundamental questions related to any dataset is if it is 'large enough'. To answer this question for DocLayNet, we performed a data ablation study in which we evaluated a Mask R-CNN model trained on increasing fractions of the DocLayNet dataset. As can be seen
+
+--- Kontextualisierter Text (für Embedding) ---
+Learning Curve
+One of the fundamental questions related to any dataset is if it is 'large enough'. To answer this question for DocLayNet, we performed a data ablation study in which we evaluated a Mask R-CNN model trained on increasing fractions of the DocLayNet dataset. As can be seen
+
+------------------------------------------------------------
+
+=== CHUNK 197 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+in Figure 5, the mAP score rises sharply in the beginning and eventually levels out. To estimate the error-bar on the metrics, we ran the training five times on the entire data-set. This resulted in a 1% error-bar, depicted by the shaded area in Figure 5. In the
+
+--- Kontextualisierter Text (für Embedding) ---
+Learning Curve
+in Figure 5, the mAP score rises sharply in the beginning and eventually levels out. To estimate the error-bar on the metrics, we ran the training five times on the entire data-set. This resulted in a 1% error-bar, depicted by the shaded area in Figure 5. In the
+
+------------------------------------------------------------
+
+=== CHUNK 198 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+inset of Figure 5, we show the exact same data-points, but with a logarithmic scale on the x-axis. As is expected, the mAP score increases linearly as a function of the data-size in the inset. The curve ultimately flattens out between the 80%
+
+--- Kontextualisierter Text (für Embedding) ---
+Learning Curve
+inset of Figure 5, we show the exact same data-points, but with a logarithmic scale on the x-axis. As is expected, the mAP score increases linearly as a function of the data-size in the inset. The curve ultimately flattens out between the 80%
+
+------------------------------------------------------------
+
+=== CHUNK 199 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+and 100% mark, with the 80% mark falling within the error-bars of the 100% mark. This provides a good indication that the model would not improve significantly by yet increasing the data size. Rather, it would probably benefit more from improved data consistency (as discussed in Section 3), data
+
+--- Kontextualisierter Text (für Embedding) ---
+Learning Curve
+and 100% mark, with the 80% mark falling within the error-bars of the 100% mark. This provides a good indication that the model would not improve significantly by yet increasing the data size. Rather, it would probably benefit more from improved data consistency (as discussed in Section 3), data
+
+------------------------------------------------------------
+
+=== CHUNK 200 ===
+Tokens (Original): 18
+Tokens (mit Kontext): 20
+
+--- Original-Text ---
+augmentation methods [23], or the addition of more document categories and styles.
+
+--- Kontextualisierter Text (für Embedding) ---
+Learning Curve
+augmentation methods [23], or the addition of more document categories and styles.
+
+------------------------------------------------------------
+
+=== CHUNK 201 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+The choice and number of labels can have a significant effect on the overall model performance. Since PubLayNet, DocBank and DocLayNet all have different label sets, it is of particular interest to understand and quantify this influence of the label set on the model performance. We investigate this by either
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+The choice and number of labels can have a significant effect on the overall model performance. Since PubLayNet, DocBank and DocLayNet all have different label sets, it is of particular interest to understand and quantify this influence of the label set on the model performance. We investigate this by either
+
+------------------------------------------------------------
+
+=== CHUNK 202 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+down-mapping labels into more common ones (e.g. Caption → Text ) or excluding them from the annotations entirely. Furthermore, it must be stressed that all mappings and exclusions were performed on the data before model training. In Table 3, we present the mAP scores for
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+down-mapping labels into more common ones (e.g. Caption → Text ) or excluding them from the annotations entirely. Furthermore, it must be stressed that all mappings and exclusions were performed on the data before model training. In Table 3, we present the mAP scores for
+
+------------------------------------------------------------
+
+=== CHUNK 203 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+a Mask R-CNN R50 network on different label sets. Where a label is down-mapped, we show its corresponding label, otherwise it was excluded. We present three different label sets, with 6, 5 and 4 different labels respectively. The set of 5 labels contains the same labels as
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+a Mask R-CNN R50 network on different label sets. Where a label is down-mapped, we show its corresponding label, otherwise it was excluded. We present three different label sets, with 6, 5 and 4 different labels respectively. The set of 5 labels contains the same labels as
+
+------------------------------------------------------------
+
+=== CHUNK 204 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 60
+
+--- Original-Text ---
+PubLayNet. However, due to the different definition of
+
+Table 4: Performance of a Mask R-CNN R50 network with document-wise and page-wise split for different label sets. Naive page-wise split will result in /tildelow 10% point improvement.
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+PubLayNet. However, due to the different definition of
+
+Table 4: Performance of a Mask R-CNN R50 network with document-wise and page-wise split for different label sets. Naive page-wise split will result in /tildelow 10% point improvement.
+
+------------------------------------------------------------
+
+=== CHUNK 205 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Caption, 11.Doc = 68. Caption, 11.Page = 83. Caption, 5.Doc = . Caption, 5.Page = . Footnote, 11.Doc = 71. Footnote, 11.Page = 84. Footnote, 5.Doc = .
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+Caption, 11.Doc = 68. Caption, 11.Page = 83. Caption, 5.Doc = . Caption, 5.Page = . Footnote, 11.Doc = 71. Footnote, 11.Page = 84. Footnote, 5.Doc = .
+
+------------------------------------------------------------
+
+=== CHUNK 206 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+Footnote, 5.Page = . Formula, 11.Doc = 60. Formula, 11.Page = 66. Formula, 5.Doc = . Formula, 5.Page = . List-item, 11.Doc = 81. List-item, 11.Page = 88.
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+Footnote, 5.Page = . Formula, 11.Doc = 60. Formula, 11.Page = 66. Formula, 5.Doc = . Formula, 5.Page = . List-item, 11.Doc = 81. List-item, 11.Page = 88.
+
+------------------------------------------------------------
+
+=== CHUNK 207 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+List-item, 5.Doc = 82. List-item, 5.Page = 88. Page-footer, 11.Doc = 62. Page-footer, 11.Page = 89. Page-footer, 5.Doc = . Page-footer, 5.Page
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+List-item, 5.Doc = 82. List-item, 5.Page = 88. Page-footer, 11.Doc = 62. Page-footer, 11.Page = 89. Page-footer, 5.Doc = . Page-footer, 5.Page
+
+------------------------------------------------------------
+
+=== CHUNK 208 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+= . Page-header, 11.Doc = 72. Page-header, 11.Page = 90. Page-header, 5.Doc = . Page-header, 5.Page = . Picture, 11.Doc = 72. Picture, 11.Page = 82. Picture,
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+= . Page-header, 11.Doc = 72. Page-header, 11.Page = 90. Page-header, 5.Doc = . Page-header, 5.Page = . Picture, 11.Doc = 72. Picture, 11.Page = 82. Picture,
+
+------------------------------------------------------------
+
+=== CHUNK 209 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+5.Doc = 72. Picture, 5.Page = 82. Section-header, 11.Doc = 68. Section-header, 11.Page = 83. Section-header, 5.Doc = 69. Section-header, 5.Page = 83. Table, 11.Doc =
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+5.Doc = 72. Picture, 5.Page = 82. Section-header, 11.Doc = 68. Section-header, 11.Page = 83. Section-header, 5.Doc = 69. Section-header, 5.Page = 83. Table, 11.Doc =
+
+------------------------------------------------------------
+
+=== CHUNK 210 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+82. Table, 11.Page = 89. Table, 5.Doc = 82. Table, 5.Page = 90. Text, 11.Doc = 85. Text, 11.Page = 91. Text, 5.Doc = 84. Text, 5.Page = 90. Title,
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+82. Table, 11.Page = 89. Table, 5.Doc = 82. Table, 5.Page = 90. Text, 11.Doc = 85. Text, 11.Page = 91. Text, 5.Doc = 84. Text, 5.Page = 90. Title,
+
+------------------------------------------------------------
+
+=== CHUNK 211 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+11.Doc = 77. Title, 11.Page = 81. Title, 5.Doc = . Title, 5.Page = . All, 11.Doc = 72. All, 11.Page = 84. All, 5.Doc = 78. All, 5.Page = 87
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+11.Doc = 77. Title, 11.Page = 81. Title, 5.Doc = . Title, 5.Page = . All, 11.Doc = 72. All, 11.Page = 84. All, 5.Doc = 78. All, 5.Page = 87
+
+------------------------------------------------------------
+
+=== CHUNK 212 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+lists in PubLayNet (grouped list-items) versus DocLayNet (separate list-items), the label set of size 4 is the closest to PubLayNet, in the assumption that the List is down-mapped to Text in PubLayNet. The results in Table 3 show that
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+lists in PubLayNet (grouped list-items) versus DocLayNet (separate list-items), the label set of size 4 is the closest to PubLayNet, in the assumption that the List is down-mapped to Text in PubLayNet. The results in Table 3 show that
+
+------------------------------------------------------------
+
+=== CHUNK 213 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 49
+
+--- Original-Text ---
+the prediction accuracy on the remaining class labels does not change significantly when other classes are merged into them. The overall macro-average improves by around 5%, in particular when Page-footer and Page-header are excluded.
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Class Labels
+the prediction accuracy on the remaining class labels does not change significantly when other classes are merged into them. The overall macro-average improves by around 5%, in particular when Page-footer and Page-header are excluded.
+
+------------------------------------------------------------
+
+=== CHUNK 214 ===
+Tokens (Original): 55
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Many documents in DocLayNet have a unique styling. In order to avoid overfitting on a particular style, we have split the train-, test- and validation-sets of DocLayNet on document boundaries, i.e. every document contributes pages to only one
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Document Split in Train and Test Set
+Many documents in DocLayNet have a unique styling. In order to avoid overfitting on a particular style, we have split the train-, test- and validation-sets of DocLayNet on document boundaries, i.e. every document contributes pages to only one
+
+------------------------------------------------------------
+
+=== CHUNK 215 ===
+Tokens (Original): 55
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+set. To the best of our knowledge, this was not considered in PubLayNet or DocBank. To quantify how this affects model performance, we trained and evaluated a Mask R-CNN R50 model on a modified dataset version. Here, the train-,
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Document Split in Train and Test Set
+set. To the best of our knowledge, this was not considered in PubLayNet or DocBank. To quantify how this affects model performance, we trained and evaluated a Mask R-CNN R50 model on a modified dataset version. Here, the train-,
+
+------------------------------------------------------------
+
+=== CHUNK 216 ===
+Tokens (Original): 54
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+test- and validation-sets were obtained by a randomised draw over the individual pages. As can be seen in Table 4, the difference in model performance is surprisingly large: pagewise splitting gains ˜ 10% in mAP over the document-wise splitting. Thus, random
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Document Split in Train and Test Set
+test- and validation-sets were obtained by a randomised draw over the individual pages. As can be seen in Table 4, the difference in model performance is surprisingly large: pagewise splitting gains ˜ 10% in mAP over the document-wise splitting. Thus, random
+
+------------------------------------------------------------
+
+=== CHUNK 217 ===
+Tokens (Original): 25
+Tokens (mit Kontext): 34
+
+--- Original-Text ---
+page-wise splitting of DocLayNet can easily lead to accidental overestimation of model performance and should be avoided.
+
+--- Kontextualisierter Text (für Embedding) ---
+Impact of Document Split in Train and Test Set
+page-wise splitting of DocLayNet can easily lead to accidental overestimation of model performance and should be avoided.
+
+------------------------------------------------------------
+
+=== CHUNK 218 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Throughout this paper, we claim that DocLayNet's wider variety of document layouts leads to more robust layout detection models. In Table 5, we provide evidence for that. We trained models on each of the available datasets (PubLayNet, DocBank and DocLayNet) and evaluated
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+Throughout this paper, we claim that DocLayNet's wider variety of document layouts leads to more robust layout detection models. In Table 5, we provide evidence for that. We trained models on each of the available datasets (PubLayNet, DocBank and DocLayNet) and evaluated
+
+------------------------------------------------------------
+
+=== CHUNK 219 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+them on the test sets of the other datasets. Due to the different label sets and annotation styles, a direct comparison is not possible. Hence, we focussed on the common labels among the datasets. Between PubLayNet and DocLayNet, these are Picture ,
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+them on the test sets of the other datasets. Due to the different label sets and annotation styles, a direct comparison is not possible. Hence, we focussed on the common labels among the datasets. Between PubLayNet and DocLayNet, these are Picture ,
+
+------------------------------------------------------------
+
+=== CHUNK 220 ===
+Tokens (Original): 45
+Tokens (mit Kontext): 48
+
+--- Original-Text ---
+KDD '22, August 14-18, 2022, Washington, DC, USA Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+KDD '22, August 14-18, 2022, Washington, DC, USA Birgit Pfitzmann, Christoph Auer, Michele Dolfi, Ahmed S. Nassar, and Peter Staar
+
+------------------------------------------------------------
+
+=== CHUNK 221 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Table 5: Prediction Performance (mAP@0.5-0.95) of a Mask R-CNN R50 network across the PubLayNet, DocBank & DocLayNet data-sets. By evaluating on common label classes of each dataset, we observe that the DocLayNet-trained
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+Table 5: Prediction Performance (mAP@0.5-0.95) of a Mask R-CNN R50 network across the PubLayNet, DocBank & DocLayNet data-sets. By evaluating on common label classes of each dataset, we observe that the DocLayNet-trained
+
+------------------------------------------------------------
+
+=== CHUNK 222 ===
+Tokens (Original): 14
+Tokens (mit Kontext): 17
+
+--- Original-Text ---
+model has much less pronounced variations in performance across all datasets.
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+model has much less pronounced variations in performance across all datasets.
+
+------------------------------------------------------------
+
+=== CHUNK 223 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+PubLayNet (PLN), labels = Figure. PubLayNet (PLN), Testing on.PLN = 96. PubLayNet (PLN), Testing on.DB = 43. PubLayNet (PLN), Testing on.DLN = 23.
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+PubLayNet (PLN), labels = Figure. PubLayNet (PLN), Testing on.PLN = 96. PubLayNet (PLN), Testing on.DB = 43. PubLayNet (PLN), Testing on.DLN = 23.
+
+------------------------------------------------------------
+
+=== CHUNK 224 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+PubLayNet (PLN), labels = Sec-header. PubLayNet (PLN), Testing on.PLN = 87. PubLayNet (PLN), Testing on.DB = -. PubLayNet (PLN), Testing on.DLN = 32.
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+PubLayNet (PLN), labels = Sec-header. PubLayNet (PLN), Testing on.PLN = 87. PubLayNet (PLN), Testing on.DB = -. PubLayNet (PLN), Testing on.DLN = 32.
+
+------------------------------------------------------------
+
+=== CHUNK 225 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+, labels = Table. , Testing on.PLN = 95. , Testing on.DB = 24. , Testing on.DLN = 49. , labels = Text. , Testing on.PLN = 96. , Testing on.DB = -. , Testing on.DLN =
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+, labels = Table. , Testing on.PLN = 95. , Testing on.DB = 24. , Testing on.DLN = 49. , labels = Text. , Testing on.PLN = 96. , Testing on.DB = -. , Testing on.DLN =
+
+------------------------------------------------------------
+
+=== CHUNK 226 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+42. , labels = total. , Testing on.PLN = 93. , Testing on.DB = 34. , Testing on.DLN = 30. DocBank (DB), labels = Figure. DocBank (DB), Testing on.PLN = 77. DocBank
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+42. , labels = total. , Testing on.PLN = 93. , Testing on.DB = 34. , Testing on.DLN = 30. DocBank (DB), labels = Figure. DocBank (DB), Testing on.PLN = 77. DocBank
+
+------------------------------------------------------------
+
+=== CHUNK 227 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+(DB), Testing on.DB = 71. DocBank (DB), Testing on.DLN = 31. DocBank (DB), labels = Table. DocBank (DB), Testing on.PLN = 19. DocBank (DB), Testing on.DB =
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+(DB), Testing on.DB = 71. DocBank (DB), Testing on.DLN = 31. DocBank (DB), labels = Table. DocBank (DB), Testing on.PLN = 19. DocBank (DB), Testing on.DB =
+
+------------------------------------------------------------
+
+=== CHUNK 228 ===
+Tokens (Original): 60
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+65. DocBank (DB), Testing on.DLN = 22. DocBank (DB), labels = total. DocBank (DB), Testing on.PLN = 48. DocBank (DB), Testing on.DB = 68. DocBank (DB), Testing
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+65. DocBank (DB), Testing on.DLN = 22. DocBank (DB), labels = total. DocBank (DB), Testing on.PLN = 48. DocBank (DB), Testing on.DB = 68. DocBank (DB), Testing
+
+------------------------------------------------------------
+
+=== CHUNK 229 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+on.DLN = 27. DocLayNet (DLN), labels = Figure. DocLayNet (DLN), Testing on.PLN = 67. DocLayNet (DLN), Testing on.DB = 51. DocLayNet (DLN), Testing
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+on.DLN = 27. DocLayNet (DLN), labels = Figure. DocLayNet (DLN), Testing on.PLN = 67. DocLayNet (DLN), Testing on.DB = 51. DocLayNet (DLN), Testing
+
+------------------------------------------------------------
+
+=== CHUNK 230 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+on.DLN = 72. DocLayNet (DLN), labels = Sec-header. DocLayNet (DLN), Testing on.PLN = 53. DocLayNet (DLN), Testing on.DB = -. DocLayNet (DLN), Testing
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+on.DLN = 72. DocLayNet (DLN), labels = Sec-header. DocLayNet (DLN), Testing on.PLN = 53. DocLayNet (DLN), Testing on.DB = -. DocLayNet (DLN), Testing
+
+------------------------------------------------------------
+
+=== CHUNK 231 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+on.DLN = 68. , labels = Table. , Testing on.PLN = 87. , Testing on.DB = 43. , Testing on.DLN = 82. , labels = Text. , Testing on.PLN = 77. , Testing on.DB = -. ,
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+on.DLN = 68. , labels = Table. , Testing on.PLN = 87. , Testing on.DB = 43. , Testing on.DLN = 82. , labels = Text. , Testing on.PLN = 77. , Testing on.DB = -. ,
+
+------------------------------------------------------------
+
+=== CHUNK 232 ===
+Tokens (Original): 38
+Tokens (mit Kontext): 41
+
+--- Original-Text ---
+Testing on.DLN = 84. , labels = total. , Testing on.PLN = 59. , Testing on.DB = 47. , Testing on.DLN = 78
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+Testing on.DLN = 84. , labels = total. , Testing on.PLN = 59. , Testing on.DB = 47. , Testing on.DLN = 78
+
+------------------------------------------------------------
+
+=== CHUNK 233 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Section-header , Table and Text . Before training, we either mapped or excluded DocLayNet's other labels as specified in table 3, and also PubLayNet's List to Text . Note that the different clustering of lists (by list-element vs. whole list objects) naturally decreases
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+Section-header , Table and Text . Before training, we either mapped or excluded DocLayNet's other labels as specified in table 3, and also PubLayNet's List to Text . Note that the different clustering of lists (by list-element vs. whole list objects) naturally decreases
+
+------------------------------------------------------------
+
+=== CHUNK 234 ===
+Tokens (Original): 6
+Tokens (mit Kontext): 9
+
+--- Original-Text ---
+the mAP score for Text .
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+the mAP score for Text .
+
+------------------------------------------------------------
+
+=== CHUNK 235 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+For comparison of DocBank with DocLayNet, we trained only on Picture and Table clusters of each dataset. We had to exclude Text because successive paragraphs are often grouped together into a single object in DocBank. This paragraph grouping is incompatible with the individual paragraphs of DocLayNet. As can
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+For comparison of DocBank with DocLayNet, we trained only on Picture and Table clusters of each dataset. We had to exclude Text because successive paragraphs are often grouped together into a single object in DocBank. This paragraph grouping is incompatible with the individual paragraphs of DocLayNet. As can
+
+------------------------------------------------------------
+
+=== CHUNK 236 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+be seen in Table 5, DocLayNet trained models yield better performance compared to the previous datasets. It is noteworthy that the models trained on PubLayNet and DocBank perform very well on their own test set, but have a much lower performance on the foreign datasets. While this also
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+be seen in Table 5, DocLayNet trained models yield better performance compared to the previous datasets. It is noteworthy that the models trained on PubLayNet and DocBank perform very well on their own test set, but have a much lower performance on the foreign datasets. While this also
+
+------------------------------------------------------------
+
+=== CHUNK 237 ===
+Tokens (Original): 38
+Tokens (mit Kontext): 41
+
+--- Original-Text ---
+applies to DocLayNet, the difference is far less pronounced. Thus we conclude that DocLayNet trained models are overall more robust and will produce better results for challenging, unseen layouts.
+
+--- Kontextualisierter Text (für Embedding) ---
+Dataset Comparison
+applies to DocLayNet, the difference is far less pronounced. Thus we conclude that DocLayNet trained models are overall more robust and will produce better results for challenging, unseen layouts.
+
+------------------------------------------------------------
+
+=== CHUNK 238 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+To conclude this section, we illustrate the quality of layout predictions one can expect from DocLayNet-trained models by providing a selection of examples without any further post-processing applied. Figure 6 shows selected layout predictions on pages from the test-set of DocLayNet. Results look decent in general across document
+
+--- Kontextualisierter Text (für Embedding) ---
+Example Predictions
+To conclude this section, we illustrate the quality of layout predictions one can expect from DocLayNet-trained models by providing a selection of examples without any further post-processing applied. Figure 6 shows selected layout predictions on pages from the test-set of DocLayNet. Results look decent in general across document
+
+------------------------------------------------------------
+
+=== CHUNK 239 ===
+Tokens (Original): 25
+Tokens (mit Kontext): 27
+
+--- Original-Text ---
+categories, however one can also observe mistakes such as overlapping clusters of different classes, or entirely missing boxes due to low confidence.
+
+--- Kontextualisierter Text (für Embedding) ---
+Example Predictions
+categories, however one can also observe mistakes such as overlapping clusters of different classes, or entirely missing boxes due to low confidence.
+
+------------------------------------------------------------
+
+=== CHUNK 240 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+In this paper, we presented the DocLayNet dataset. It provides the document conversion and layout analysis research community a new and challenging dataset to improve and fine-tune novel ML methods on. In contrast to many other datasets, DocLayNet was created by human annotation in order to
+
+--- Kontextualisierter Text (für Embedding) ---
+6 CONCLUSION
+In this paper, we presented the DocLayNet dataset. It provides the document conversion and layout analysis research community a new and challenging dataset to improve and fine-tune novel ML methods on. In contrast to many other datasets, DocLayNet was created by human annotation in order to
+
+------------------------------------------------------------
+
+=== CHUNK 241 ===
+Tokens (Original): 38
+Tokens (mit Kontext): 40
+
+--- Original-Text ---
+obtain reliable layout ground-truth on a wide variety of publication- and typesettingstyles. Including a large proportion of documents outside the scientific publishing domain adds significant value in this respect.
+
+--- Kontextualisierter Text (für Embedding) ---
+6 CONCLUSION
+obtain reliable layout ground-truth on a wide variety of publication- and typesettingstyles. Including a large proportion of documents outside the scientific publishing domain adds significant value in this respect.
+
+------------------------------------------------------------
+
+=== CHUNK 242 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+From the dataset, we have derived on the one hand reference metrics for human performance on document-layout annotation (through double and triple annotations) and on the other hand evaluated the baseline performance of commonly used object detection methods. We also illustrated the impact of various dataset-related aspects
+
+--- Kontextualisierter Text (für Embedding) ---
+6 CONCLUSION
+From the dataset, we have derived on the one hand reference metrics for human performance on document-layout annotation (through double and triple annotations) and on the other hand evaluated the baseline performance of commonly used object detection methods. We also illustrated the impact of various dataset-related aspects
+
+------------------------------------------------------------
+
+=== CHUNK 243 ===
+Tokens (Original): 50
+Tokens (mit Kontext): 52
+
+--- Original-Text ---
+on model performance through data-ablation experiments, both from a size and class-label perspective. Last but not least, we compared the accuracy of models trained on other public datasets and showed that DocLayNet trained models are more robust.
+
+--- Kontextualisierter Text (für Embedding) ---
+6 CONCLUSION
+on model performance through data-ablation experiments, both from a size and class-label perspective. Last but not least, we compared the accuracy of models trained on other public datasets and showed that DocLayNet trained models are more robust.
+
+------------------------------------------------------------
+
+=== CHUNK 244 ===
+Tokens (Original): 36
+Tokens (mit Kontext): 38
+
+--- Original-Text ---
+To date, there is still a significant gap between human and ML accuracy on the layout interpretation task, and we hope that this work will inspire the research community to close that gap.
+
+--- Kontextualisierter Text (für Embedding) ---
+6 CONCLUSION
+To date, there is still a significant gap between human and ML accuracy on the layout interpretation task, and we hope that this work will inspire the research community to close that gap.
+
+------------------------------------------------------------
+
+=== CHUNK 245 ===
+Tokens (Original): 48
+Tokens (mit Kontext): 49
+
+--- Original-Text ---
+- [1] Max Göbel, Tamir Hassan, Ermelinda Oro, and Giorgio Orsi. Icdar 2013 table competition. In 2013 12th International Conference on Document Analysis and Recognition , pages 1449-1453, 2013.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [1] Max Göbel, Tamir Hassan, Ermelinda Oro, and Giorgio Orsi. Icdar 2013 table competition. In 2013 12th International Conference on Document Analysis and Recognition , pages 1449-1453, 2013.
+
+------------------------------------------------------------
+
+=== CHUNK 246 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+- [2] Christian Clausner, Apostolos Antonacopoulos, and Stefan Pletschacher. Icdar2017 competition on recognition of documents with complex layouts rdcl2017. In 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR) , volume 01, pages
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [2] Christian Clausner, Apostolos Antonacopoulos, and Stefan Pletschacher. Icdar2017 competition on recognition of documents with complex layouts rdcl2017. In 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR) , volume 01, pages
+
+------------------------------------------------------------
+
+=== CHUNK 247 ===
+Tokens (Original): 8
+Tokens (mit Kontext): 9
+
+--- Original-Text ---
+1404-1410, 2017.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+1404-1410, 2017.
+
+------------------------------------------------------------
+
+=== CHUNK 248 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 57
+
+--- Original-Text ---
+- [3] Hervé Déjean, Jean-Luc Meunier, Liangcai Gao, Yilun Huang, Yu Fang, Florian Kleber, and Eva-Maria Lang. ICDAR 2019 Competition on Table Detection and Recognition (cTDaR), April 2019.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [3] Hervé Déjean, Jean-Luc Meunier, Liangcai Gao, Yilun Huang, Yu Fang, Florian Kleber, and Eva-Maria Lang. ICDAR 2019 Competition on Table Detection and Recognition (cTDaR), April 2019.
+
+------------------------------------------------------------
+
+=== CHUNK 249 ===
+Tokens (Original): 12
+Tokens (mit Kontext): 13
+
+--- Original-Text ---
+http://sac.founderit.com/.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+http://sac.founderit.com/.
+
+------------------------------------------------------------
+
+=== CHUNK 250 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+- [4] Antonio Jimeno Yepes, Peter Zhong, and Douglas Burdick. Competition on scientific literature parsing. In Proceedings of the International Conference on Document Analysis and Recognition , ICDAR, pages 605-617. LNCS 12824, SpringerVerlag, sep 2021.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [4] Antonio Jimeno Yepes, Peter Zhong, and Douglas Burdick. Competition on scientific literature parsing. In Proceedings of the International Conference on Document Analysis and Recognition , ICDAR, pages 605-617. LNCS 12824, SpringerVerlag, sep 2021.
+
+------------------------------------------------------------
+
+=== CHUNK 251 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [5] Logan Markewich, Hao Zhang, Yubin Xing, Navid Lambert-Shirzad, Jiang Zhexin, Roy Lee, Zhi Li, and Seok-Bum Ko. Segmentation for document layout analysis: not dead yet. International Journal on Document Analysis and Recognition
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [5] Logan Markewich, Hao Zhang, Yubin Xing, Navid Lambert-Shirzad, Jiang Zhexin, Roy Lee, Zhi Li, and Seok-Bum Ko. Segmentation for document layout analysis: not dead yet. International Journal on Document Analysis and Recognition
+
+------------------------------------------------------------
+
+=== CHUNK 252 ===
+Tokens (Original): 15
+Tokens (mit Kontext): 16
+
+--- Original-Text ---
+(IJDAR) , pages 1-11, 01 2022.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+(IJDAR) , pages 1-11, 01 2022.
+
+------------------------------------------------------------
+
+=== CHUNK 253 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 59
+
+--- Original-Text ---
+- [6] Xu Zhong, Jianbin Tang, and Antonio Jimeno-Yepes. Publaynet: Largest dataset ever for document layout analysis. In Proceedings of the International Conference on Document Analysis and Recognition , ICDAR, pages 1015-1022, sep 2019.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [6] Xu Zhong, Jianbin Tang, and Antonio Jimeno-Yepes. Publaynet: Largest dataset ever for document layout analysis. In Proceedings of the International Conference on Document Analysis and Recognition , ICDAR, pages 1015-1022, sep 2019.
+
+------------------------------------------------------------
+
+=== CHUNK 254 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [7] Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Wei, Zhoujun Li, and Ming Zhou. Docbank: A benchmark dataset for document layout analysis. In Proceedings of the 28th International Conference on Computational Linguistics , COLING, pages
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [7] Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Wei, Zhoujun Li, and Ming Zhou. Docbank: A benchmark dataset for document layout analysis. In Proceedings of the 28th International Conference on Computational Linguistics , COLING, pages
+
+------------------------------------------------------------
+
+=== CHUNK 255 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+949-960. International Committee on Computational Linguistics, dec 2020.
+- [8] Riaz Ahmad, Muhammad Tanvir Afzal, and M. Qadir. Information extraction from pdf sources based on rule-based system using integrated formats. In SemWebEval@ESWC , 2016.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+949-960. International Committee on Computational Linguistics, dec 2020.
+- [8] Riaz Ahmad, Muhammad Tanvir Afzal, and M. Qadir. Information extraction from pdf sources based on rule-based system using integrated formats. In SemWebEval@ESWC , 2016.
+
+------------------------------------------------------------
+
+=== CHUNK 256 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [9] Ross B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In IEEE Conference on Computer Vision and Pattern Recognition , CVPR, pages 580-587. IEEE Computer Society,
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [9] Ross B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In IEEE Conference on Computer Vision and Pattern Recognition , CVPR, pages 580-587. IEEE Computer Society,
+
+------------------------------------------------------------
+
+=== CHUNK 257 ===
+Tokens (Original): 46
+Tokens (mit Kontext): 47
+
+--- Original-Text ---
+jun 2014.
+- [10] Ross B. Girshick. Fast R-CNN. In 2015 IEEE International Conference on Computer Vision , ICCV, pages 1440-1448. IEEE Computer Society, dec 2015.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+jun 2014.
+- [10] Ross B. Girshick. Fast R-CNN. In 2015 IEEE International Conference on Computer Vision , ICCV, pages 1440-1448. IEEE Computer Society, dec 2015.
+
+------------------------------------------------------------
+
+=== CHUNK 258 ===
+Tokens (Original): 61
+Tokens (mit Kontext): 62
+
+--- Original-Text ---
+- [11] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(6):1137-1149, 2017.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [11] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. IEEE Transactions on Pattern Analysis and Machine Intelligence , 39(6):1137-1149, 2017.
+
+------------------------------------------------------------
+
+=== CHUNK 259 ===
+Tokens (Original): 58
+Tokens (mit Kontext): 59
+
+--- Original-Text ---
+- [12] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B. Girshick. Mask R-CNN. In IEEE International Conference on Computer Vision , ICCV, pages 2980-2988. IEEE Computer Society, Oct 2017.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [12] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B. Girshick. Mask R-CNN. In IEEE International Conference on Computer Vision , ICCV, pages 2980-2988. IEEE Computer Society, Oct 2017.
+
+------------------------------------------------------------
+
+=== CHUNK 260 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [13] Glenn Jocher, Alex Stoken, Ayush Chaurasia, Jirka Borovec, NanoCode012, TaoXie, Yonghye Kwon, Kalen Michael, Liu Changyu, Jiacong Fang, Abhiram V, Laughing, tkianai,
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [13] Glenn Jocher, Alex Stoken, Ayush Chaurasia, Jirka Borovec, NanoCode012, TaoXie, Yonghye Kwon, Kalen Michael, Liu Changyu, Jiacong Fang, Abhiram V, Laughing, tkianai,
+
+------------------------------------------------------------
+
+=== CHUNK 261 ===
+Tokens (Original): 52
+Tokens (mit Kontext): 53
+
+--- Original-Text ---
+yxNONG, Piotr Skalski, Adam Hogan, Jebastin Nadar, imyhxy, Lorenzo Mammana, Alex Wang, Cristi Fati, Diego Montes, Jan Hajek, Laurentiu
+B
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+yxNONG, Piotr Skalski, Adam Hogan, Jebastin Nadar, imyhxy, Lorenzo Mammana, Alex Wang, Cristi Fati, Diego Montes, Jan Hajek, Laurentiu
+B
+
+------------------------------------------------------------
+
+=== CHUNK 262 ===
+Tokens (Original): 31
+Tokens (mit Kontext): 32
+
+--- Original-Text ---
+ere was a change to the TERPS criseria in 2012 that aflects circino area dimension by expandino the areas to prol
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+ere was a change to the TERPS criseria in 2012 that aflects circino area dimension by expandino the areas to prol
+
+------------------------------------------------------------
+
+=== CHUNK 263 ===
+Tokens (Original): 38
+Tokens (mit Kontext): 39
+
+--- Original-Text ---
+742407203 04644+175630514577976103247161620928201535695957946754
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+742407203 04644+175630514577976103247161620928201535695957946754
+
+------------------------------------------------------------
+
+=== CHUNK 264 ===
+Tokens (Original): 43
+Tokens (mit Kontext): 44
+
+--- Original-Text ---
+rurtscosldetoedoon.lotoetht/wwetowcrne000h2000000a0/w0h0odesue00000%0000
+SETTING THE FUTURE IN MOTION
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+rurtscosldetoedoon.lotoetht/wwetowcrne000h2000000a0/w0h0odesue00000%0000
+SETTING THE FUTURE IN MOTION
+
+------------------------------------------------------------
+
+=== CHUNK 265 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 57
+
+--- Original-Text ---
+• approuches using standard ording epproach arean can be ibentlind by the üzweron af the lg on iie crding linn g
+OPERATION (cont.)
+MODEL AY11236
+X9724 200 009 51
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+• approuches using standard ording epproach arean can be ibentlind by the üzweron af the lg on iie crding linn g
+OPERATION (cont.)
+MODEL AY11236
+X9724 200 009 51
+
+------------------------------------------------------------
+
+=== CHUNK 266 ===
+Tokens (Original): 54
+Tokens (mit Kontext): 55
+
+--- Original-Text ---
+Petenuwe wmblonconrohttehewwetoortrto/c0/nor00h0r001000
+ot recogrition of the airport from the air and to provide some information to aid on ground
+) Page-Header
+E
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Petenuwe wmblonconrohttehewwetoortrto/c0/nor00h0r001000
+ot recogrition of the airport from the air and to provide some information to aid on ground
+) Page-Header
+E
+
+------------------------------------------------------------
+
+=== CHUNK 267 ===
+Tokens (Original): 47
+Tokens (mit Kontext): 48
+
+--- Original-Text ---
+4hed2a8aa51ac37058e79605821bhcA26d932h0b6caRhdf3A09ed8508ccd8c67l ader
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+4hed2a8aa51ac37058e79605821bhcA26d932h0b6caRhdf3A09ed8508ccd8c67l ader
+
+------------------------------------------------------------
+
+=== CHUNK 268 ===
+Tokens (Original): 51
+Tokens (mit Kontext): 52
+
+--- Original-Text ---
+amigason of tne arport. The furmays are dr aan lo scale and chensed lo true nörth. Hurnwa)
+• Page-Header
+6J dater
+-X Pa8a -(S x SuX1 - PA
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+amigason of tne arport. The furmays are dr aan lo scale and chensed lo true nörth. Hurnwa)
+• Page-Header
+6J dater
+-X Pa8a -(S x SuX1 - PA
+
+------------------------------------------------------------
+
+=== CHUNK 269 ===
+Tokens (Original): 62
+Tokens (mit Kontext): 63
+
+--- Original-Text ---
+-Py|8/2 •(Sus x Su)]|S2- (S,a x S,)/P)
+1,(82 - (Sus x Su) + ngn (J,) - S42- (8/s x S,a))
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+-Py|8/2 •(Sus x Su)]|S2- (S,a x S,)/P)
+1,(82 - (Sus x Su) + ngn (J,) - S42- (8/s x S,a))
+
+------------------------------------------------------------
+
+=== CHUNK 270 ===
+Tokens (Original): 39
+Tokens (mit Kontext): 40
+
+--- Original-Text ---
+|J.KSg-Sju Sju+ Sis- Su)
+tet teten oathe tich ehato esote n to catcrthet
+A, Ilputubatin
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+|J.KSg-Sju Sju+ Sis- Su)
+tet teten oathe tich ehato esote n to catcrthet
+A, Ilputubatin
+
+------------------------------------------------------------
+
+=== CHUNK 271 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Figure 6: Example layout predictions on selected pages from the DocLayNet test-set. (A, D) exhibit favourable results on coloured backgrounds. (B, C) show accurate list-item and paragraph differentiation despite densely-spaced lines. (E) demonstrates good table and figure distinction. (F) shows
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Figure 6: Example layout predictions on selected pages from the DocLayNet test-set. (A, D) exhibit favourable results on coloured backgrounds. (B, C) show accurate list-item and paragraph differentiation despite densely-spaced lines. (E) demonstrates good table and figure distinction. (F) shows
+
+------------------------------------------------------------
+
+=== CHUNK 272 ===
+Tokens (Original): 16
+Tokens (mit Kontext): 17
+
+--- Original-Text ---
+predictions on a Chinese patent with multiple overlaps, label confusion and missing boxes.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+predictions on a Chinese patent with multiple overlaps, label confusion and missing boxes.
+
+------------------------------------------------------------
+
+=== CHUNK 273 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+Diaconu, Mai Thanh Minh, Marc, albinxavi, fatih, oleg, and wanghao yang. ultralytics/yolov5: v6.0 - yolov5n nano models, roboflow integration, tensorflow export, opencv dnn support, October
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Diaconu, Mai Thanh Minh, Marc, albinxavi, fatih, oleg, and wanghao yang. ultralytics/yolov5: v6.0 - yolov5n nano models, roboflow integration, tensorflow export, opencv dnn support, October
+
+------------------------------------------------------------
+
+=== CHUNK 274 ===
+Tokens (Original): 59
+Tokens (mit Kontext): 60
+
+--- Original-Text ---
+2021.
+- [14] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. CoRR , abs/2005.12872, 2020.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+2021.
+- [14] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. CoRR , abs/2005.12872, 2020.
+
+------------------------------------------------------------
+
+=== CHUNK 275 ===
+Tokens (Original): 44
+Tokens (mit Kontext): 45
+
+--- Original-Text ---
+- [15] Mingxing Tan, Ruoming Pang, and Quoc V. Le. Efficientdet: Scalable and efficient object detection. CoRR , abs/1911.09070, 2019.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [15] Mingxing Tan, Ruoming Pang, and Quoc V. Le. Efficientdet: Scalable and efficient object detection. CoRR , abs/1911.09070, 2019.
+
+------------------------------------------------------------
+
+=== CHUNK 276 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [16] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, Lubomir D. Bourdev, Ross B. Girshick, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [16] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, Lubomir D. Bourdev, Ross B. Girshick, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft
+
+------------------------------------------------------------
+
+=== CHUNK 277 ===
+Tokens (Original): 44
+Tokens (mit Kontext): 45
+
+--- Original-Text ---
+COCO: common objects in context, 2014.
+- [17] Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2, 2019.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+COCO: common objects in context, 2014.
+- [17] Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2, 2019.
+
+------------------------------------------------------------
+
+=== CHUNK 278 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [18] Nikolaos Livathinos, Cesar Berrospi, Maksym Lysak, Viktor Kuropiatnyk, Ahmed Nassar, Andre Carvalho, Michele Dolfi, Christoph Auer, Kasper Dinkla, and Peter W. J. Staar.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [18] Nikolaos Livathinos, Cesar Berrospi, Maksym Lysak, Viktor Kuropiatnyk, Ahmed Nassar, Andre Carvalho, Michele Dolfi, Christoph Auer, Kasper Dinkla, and Peter W. J. Staar.
+
+------------------------------------------------------------
+
+=== CHUNK 279 ===
+Tokens (Original): 33
+Tokens (mit Kontext): 34
+
+--- Original-Text ---
+Robust pdf document conversion using recurrent neural networks. In Proceedings of the 35th Conference on Artificial Intelligence , AAAI, pages 1513715145, feb 2021.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Robust pdf document conversion using recurrent neural networks. In Proceedings of the 35th Conference on Artificial Intelligence , AAAI, pages 1513715145, feb 2021.
+
+------------------------------------------------------------
+
+=== CHUNK 280 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [19] Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, and Ming Zhou. Layoutlm: Pre-training of text and layout for document image understanding. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [19] Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, and Ming Zhou. Layoutlm: Pre-training of text and layout for document image understanding. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and
+
+------------------------------------------------------------
+
+=== CHUNK 281 ===
+Tokens (Original): 24
+Tokens (mit Kontext): 25
+
+--- Original-Text ---
+Data Mining , KDD, pages 1192-1200, New York, USA, 2020. Association for Computing Machinery.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Data Mining , KDD, pages 1192-1200, New York, USA, 2020. Association for Computing Machinery.
+
+------------------------------------------------------------
+
+=== CHUNK 282 ===
+Tokens (Original): 46
+Tokens (mit Kontext): 47
+
+--- Original-Text ---
+- [20] Shoubin Li, Xuyan Ma, Shuaiqun Pan, Jun Hu, Lin Shi, and Qing Wang. Vtlayout: Fusion of visual and text features for document layout analysis, 2021.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [20] Shoubin Li, Xuyan Ma, Shuaiqun Pan, Jun Hu, Lin Shi, and Qing Wang. Vtlayout: Fusion of visual and text features for document layout analysis, 2021.
+
+------------------------------------------------------------
+
+=== CHUNK 283 ===
+Tokens (Original): 52
+Tokens (mit Kontext): 53
+
+--- Original-Text ---
+- [21] Peng Zhang, Can Li, Liang Qiao, Zhanzhan Cheng, Shiliang Pu, Yi Niu, and Fei Wu. Vsr: A unified framework for document layout analysis combining vision, semantics and relations, 2021.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [21] Peng Zhang, Can Li, Liang Qiao, Zhanzhan Cheng, Shiliang Pu, Yi Niu, and Fei Wu. Vsr: A unified framework for document layout analysis combining vision, semantics and relations, 2021.
+
+------------------------------------------------------------
+
+=== CHUNK 284 ===
+Tokens (Original): 63
+Tokens (mit Kontext): 64
+
+--- Original-Text ---
+- [22] Peter W J Staar, Michele Dolfi, Christoph Auer, and Costas Bekas. Corpus conversion service: A machine learning platform to ingest documents at scale. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining , KDD,
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+- [22] Peter W J Staar, Michele Dolfi, Christoph Auer, and Costas Bekas. Corpus conversion service: A machine learning platform to ingest documents at scale. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining , KDD,
+
+------------------------------------------------------------
+
+=== CHUNK 285 ===
+Tokens (Original): 56
+Tokens (mit Kontext): 57
+
+--- Original-Text ---
+pages 774-782. ACM, 2018.
+- [23] Connor Shorten and Taghi M. Khoshgoftaar. A survey on image data augmentation for deep learning. Journal of Big Data , 6(1):60, 2019.
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+pages 774-782. ACM, 2018.
+- [23] Connor Shorten and Taghi M. Khoshgoftaar. A survey on image data augmentation for deep learning. Journal of Big Data , 6(1):60, 2019.
+
+------------------------------------------------------------
+
+=== CHUNK 286 ===
+Tokens (Original): 10
+Tokens (mit Kontext): 11
+
+--- Original-Text ---
+Man -E laa +. E ca)
+
+--- Kontextualisierter Text (für Embedding) ---
+REFERENCES
+Man -E laa +. E ca)
+
+------------------------------------------------------------
+

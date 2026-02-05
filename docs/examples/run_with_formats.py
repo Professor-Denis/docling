@@ -32,6 +32,7 @@ import logging
 from pathlib import Path
 
 import yaml
+from enum import Enum
 
 from docling.backend.pypdfium2_backend import PyPdfiumDocumentBackend
 from docling.datamodel.base_models import InputFormat
@@ -45,6 +46,21 @@ from docling.pipeline.standard_pdf_pipeline import StandardPdfPipeline
 
 _log = logging.getLogger(__name__)
 
+def _yaml_sanitize(obj):
+    """Recursively convert non-YAML-serializable objects (e.g. Enums) to primitives."""
+    if isinstance(obj, Enum):
+        # Prefer .value if present, else string representation
+        return obj.value if hasattr(obj, "value") else str(obj)
+    if isinstance(obj, dict):
+        return {str(_yaml_sanitize(k)): _yaml_sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_yaml_sanitize(v) for v in obj]
+    if isinstance(obj, set):
+        return sorted(_yaml_sanitize(v) for v in obj)
+    if isinstance(obj, Path):
+        return str(obj)
+    return obj
+
 
 def main():
     input_paths = [
@@ -56,6 +72,7 @@ def main():
         Path("tests/data/2305.03393v1-pg9-img.png"),
         Path("tests/data/pdf/2206.01062.pdf"),
         Path("tests/data/asciidoc/test_01.asciidoc"),
+        Path("tests/data/csv/csv-comma.csv"),
     ]
 
     ## for defaults use:
@@ -92,6 +109,7 @@ def main():
 
     for res in conv_results:
         out_path = Path("scratch")  # ensure this directory exists before running
+        out_path.mkdir(parents=True, exist_ok=True)
         print(
             f"Document {res.input.file.name} converted."
             f"\nSaved markdown output to: {out_path!s}"
@@ -104,8 +122,10 @@ def main():
         with (out_path / f"{res.input.file.stem}.json").open("w") as fp:
             fp.write(json.dumps(res.document.export_to_dict()))
 
+        yaml_payload = _yaml_sanitize(res.document.export_to_dict())
+        yaml_text = yaml.safe_dump(yaml_payload, sort_keys=False, allow_unicode=True)
         with (out_path / f"{res.input.file.stem}.yaml").open("w") as fp:
-            fp.write(yaml.safe_dump(res.document.export_to_dict()))
+            fp.write(yaml_text)
 
 
 if __name__ == "__main__":

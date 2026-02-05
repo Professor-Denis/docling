@@ -1,0 +1,241 @@
+================================================================================
+DOCLING DOCUMENT - STRUKTUR ERKLÄRT
+================================================================================
+
+Quelldatei: /Users/denisnorthe/Desktop/Cursor /docling/tests/data/pdf/2305.03393v1-pg9.pdf
+Dokumentname: 2305.03393v1-pg9
+
+----------------------------------------
+STATISTIK
+----------------------------------------
+Anzahl Textelemente: 9
+Anzahl Tabellen: 1
+Anzahl Bilder: 0
+Anzahl Gruppen: 0
+
+================================================================================
+ELEMENT-BAUM (Dokumentstruktur / Hierarchie)
+================================================================================
+Zeigt wie die Elemente verschachtelt sind:
+
+  [text] → "order to compute the TED score. Inference timing results for..."
+  [section_header] → "5.1 Hyper Parameter Optimization"
+  [text] → "We have chosen the PubTabNet data set to perform HPO, since ..."
+  [table]
+    [caption] → "Table 1. HPO performed in OTSL and HTML representation on th..."
+  [section_header] → "5.2 Quantitative Results"
+  [text] → "We picked the model parameter configuration that produced th..."
+  [text] → "Additionally, the results show that OTSL has an advantage ov..."
+
+================================================================================
+ALLE TEXTELEMENTE IM DETAIL
+================================================================================
+
+--- texts[0] ---
+  self_ref: #/texts/0
+  label: page_header
+  text: Optimized Table Tokenization for Table Structure Recognition
+  prov: Seite 1, BBox: l=194.478 t=698.337 r=447.545 b=689.963 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[1] ---
+  self_ref: #/texts/1
+  label: page_header
+  text: 9
+  prov: Seite 1, BBox: l=475.984 t=698.337 r=480.593 b=689.963 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[2] ---
+  self_ref: #/texts/2
+  label: text
+  text: order to compute the TED score. Inference timing results for all experiments were obtained from the same machine on a single core with AMD EPYC 7763 CPU @2.45 GHz.
+  prov: Seite 1, BBox: l=134.765 t=673.126 r=480.597 b=639.919 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[3] ---
+  self_ref: #/texts/3
+  label: section_header
+  text: 5.1 Hyper Parameter Optimization
+  prov: Seite 1, BBox: l=134.765 t=622.844 r=318.451 b=613.617 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[4] ---
+  self_ref: #/texts/4
+  label: text
+  text: We have chosen the PubTabNet data set to perform HPO, since it includes a highly diverse set of tables. Also we report TED scores separately for simple and complex tables (tables with cell spans). Res...
+  prov: Seite 1, BBox: l=134.765 t=606.474 r=480.596 b=536.933 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[5] ---
+  self_ref: #/texts/5
+  label: caption
+  text: Table 1. HPO performed in OTSL and HTML representation on the same transformer-based TableFormer [9] architecture, trained only on PubTabNet [22]. Effects of reducing the # of layers in encoder and de...
+  prov: Seite 1, BBox: l=134.765 t=518.264 r=480.599 b=464.763 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[6] ---
+  self_ref: #/texts/6
+  label: section_header
+  text: 5.2 Quantitative Results
+  prov: Seite 1, BBox: l=134.765 t=283.878 r=264.408 b=274.65100000000007 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[7] ---
+  self_ref: #/texts/7
+  label: text
+  text: We picked the model parameter configuration that produced the best prediction quality (enc=6, dec=6, heads=8) with PubTabNet alone, then independently trained and evaluated it on three publicly availa...
+  prov: Seite 1, BBox: l=134.765 t=267.509 r=480.722 b=174.52600000000007 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+--- texts[8] ---
+  self_ref: #/texts/8
+  label: text
+  text: Additionally, the results show that OTSL has an advantage over HTML when applied on a bigger data set like PubTables-1M and achieves significantly improved scores. Finally, OTSL achieves faster infere...
+  prov: Seite 1, BBox: l=134.765 t=171.86699999999996 r=480.599 b=126.70600000000002 coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>
+
+================================================================================
+TABELLEN
+================================================================================
+
+--- tables[0] ---
+  self_ref: #/tables/0
+  Zeilen: 6
+  Spalten: 8
+
+================================================================================
+MARKDOWN EXPORT (so würde das Dokument als Text aussehen)
+================================================================================
+
+order to compute the TED score. Inference timing results for all experiments were obtained from the same machine on a single core with AMD EPYC 7763 CPU @2.45 GHz.
+
+## 5.1 Hyper Parameter Optimization
+
+We have chosen the PubTabNet data set to perform HPO, since it includes a highly diverse set of tables. Also we report TED scores separately for simple and complex tables (tables with cell spans). Results are presented in Table. 1. It is evident that with OTSL, our model achieves the same TED score and slightly better mAP scores in comparison to HTML. However OTSL yields a 2x speed up in the inference runtime over HTML.
+
+Table 1. HPO performed in OTSL and HTML representation on the same transformer-based TableFormer [9] architecture, trained only on PubTabNet [22]. Effects of reducing the # of layers in encoder and decoder stages of the model show that smaller models trained on OTSL perform better, especially in recognizing complex table structures, and maintain a much higher mAP score than the HTML counterpart.
+
+| # enc-layers   | # dec-layers   | Language   | TEDs        | TEDs        | TEDs        | mAP (0.75)   | Inference time (secs)   |
+|----------------|----------------|------------|-------------|-------------|-------------|--------------|-------------------------|
+| # enc-layers   | # dec-layers   | Language   | simple      | complex     | all         | mAP (0.75)   | Inference time (secs)   |
+| 6              | 6              | OTSL HTML  | 0.965 0.969 | 0.934 0.927 | 0.955 0.955 | 0.88 0.857   | 2.73 5.39               |
+| 4              | 4              | OTSL HTML  | 0.938 0.952 | 0.904 0.909 | 0.927 0.938 | 0.853 0.843  | 1.97 3.77               |
+| 2              | 4              | OTSL HTML  | 0.923 0.945 | 0.897 0.901 | 0.915 0.931 | 0.859 0.834  | 1.91 3.81               |
+| 4              | 2              | OTSL HTML  | 0.952 0.944 | 0.92 0.903  | 0.942 0.931 | 0.857 0.824  | 1.22 2                  |
+
+## 5.2 Quantitative Results
+
+We picked the model parameter configuration that produced the best prediction quality (enc=6, dec=6, heads=8) with PubTabNet alone, then independently trained and evaluated it on three publicly available data sets: PubTabNet (395k samples), FinTabNet (113k samples) and PubTables-1M (about 1M samples). Performance results are presented in Table. 2. It is clearly evident that the model trained on OTSL outperforms HTML across the board, keeping high TEDs and mAP scores even on di ffi cult financial tables (FinTabNet) that contain sparse and large tables.
+
+Additionally, the results show that OTSL has an advantage over HTML when applied on a bigger data set like PubTables-1M and achieves significantly improved scores. Finally, OTSL achieves faster inference due to fewer decoding steps which is a result of the reduced sequence representation.
+
+================================================================================
+JSON-STRUKTUR (Auszug - zeigt die komplette Datenstruktur)
+================================================================================
+
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.9.0",
+  "name": "2305.03393v1-pg9",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 3463920545297462180,
+    "filename": "2305.03393v1-pg9.pdf"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      }
+    ],
+    "_hinweis": "... und 4 weitere children"
+  },
+  "texts_auszug": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 194.478,
+            "t": 698.337,
+            "r": 447.545,
+            "b": 689.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "Optimized Table Tokenization for Table Structure Recognition",
+      "text": "Optimized Table Tokenization for Table Structure Recognition"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 475.984,
+            "t": 698.337,
+            "r": 480.593,
+            "b": 689.963,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "9",
+      "text": "9"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 134.765,
+            "t": 673.126,
+            "r": 480.597,
+            "b": 639.919,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "order to compute the TED score. Inference timing results for all experiments were obtained from the same machine on a single core with AMD EPYC 7763 CPU @2.45 GHz.",
+      "text": "order to compute the TED score. Inference timing results for all experiments were obtained from the same machine on a single core with AMD EPYC 7763 CPU @2.45 GHz."
+    }
+  ],
+  "_hinweis": "Vollständiges JSON hat 37643 Zeichen"
+}
