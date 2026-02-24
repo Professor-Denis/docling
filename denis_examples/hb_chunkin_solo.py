@@ -33,7 +33,7 @@ from transformers import AutoTokenizer
 # =============================================================================
 
 # Pfad zur Eingabedatei - ändere diesen Pfad zu deiner eigenen Datei
-DOC_SOURCE = Path("/Users/denisnorthe/Desktop/Cursor /docling/tests/data/pdf/2206.01062.pdf")
+DOC_SOURCE = Path("/Users/denisnorthe/Desktop/Cursor/docling/tests/data/pdf/2206.01062.pdf")
 
 # Name des Embedding-Modells (bestimmt wie Tokens gezählt werden)
 # Dieses Modell wird oft für Textähnlichkeitssuche verwendet
